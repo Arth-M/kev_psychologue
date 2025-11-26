@@ -176,14 +176,16 @@ in layout.js:
 
 Run your develpment environment process with npm run dev and start using Tailwind in your project
 
-14. Git :
-git init
-git remote add origin XXXXX (from github)
-git add .
-git commit -m 'first commit'
-git push origin main
+14. Add robots.txt and sitemap.xml/sitemap.js files in your app root directory, for search engine crawlers and SEO
 
-14. Production:
+15. Git :
+    git init
+    git remote add origin XXXXX (from github)
+    git add .
+    git commit -m 'first commit'
+    git push origin main
+
+16. Production:
     When you build and deploy your app for production:
     add
     `"build": "next build",
