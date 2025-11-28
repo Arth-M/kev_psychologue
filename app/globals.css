@@ -1,9 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-general: 'Delius';
+  --font-general: 'Lexend';
+  --color-mako-50: #f5f5f6;
+  --color-mako-100: #e4e5e9;
+  --color-mako-200: #cdd0d4;
+  --color-mako-300: #a9adb7;
+  --color-mako-400: #7f8591;
+  --color-mako-500: #646a76;
+  --color-mako-600: #555965;
+  --color-mako-700: #494c55;
+  --color-mako-800: #42444b;
+  --color-mako-900: #393a40;
+  --color-mako-950: #232429;
+
+  --color-danube-50: #f3f6fb;
+  --color-danube-100: #e3ebf6;
+  --color-danube-200: #cdddf0;
+  --color-danube-300: #abc6e5;
+  --color-danube-400: #749ed2;
+  --color-danube-500: #668ccb;
+  --color-danube-600: #5274be;
+  --color-danube-700: #4862ad;
+  --color-danube-800: #3f528e;
+  --color-danube-900: #374671;
+  --color-danube-950: #252d46;
+
+  --color-mantis-50: #f3faeb;
+  --color-mantis-100: #e5f3d4;
+  --color-mantis-200: #cde8ae;
+  --color-mantis-300: #acd87e;
+  --color-mantis-400: #91c75a;
+  --color-mantis-500: #6fab37;
+  --color-mantis-600: #558729;
+  --color-mantis-700: #426823;
+  --color-mantis-800: #375321;
+  --color-mantis-900: #304720;
+  --color-mantis-950: #17260d;
+
+
+
+
 }

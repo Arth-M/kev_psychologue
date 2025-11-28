@@ -25,11 +25,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className="w-screen py-3 bg-transparent tracking-wide text-lg not-arrow-up"
-      ref={menuRef}
+      className="w-screen py-3 bg-transparent tracking-wide text-lg not-arrow-up fixed"
     >
       <div id="nav-div" className="mx-auto w-screen px-2 md:px-10">
-        <div className="relative w-full items-center justify-between px-4 mx-auto grid grid-cols-[minmax(60px,1fr)_minmax(200px,4fr)_minmax(15px,0.5fr)] lg:grid-cols-[minmax(400px,3fr)_minmax(60px,1fr)_minmax(400px,3fr)]">
+        <div className="relative w-full items-center justify-between px-4 mx-auto grid grid-cols-[minmax(60px,1fr)_minmax(200px,4fr)_minmax(15px,0.5fr)] lg:grid-cols-[minmax(400px,3fr)_minmax(60px,2fr)_minmax(400px,3fr)]">
           <div className="hidden lg:flex flex-nowrap items-center justify-end min-w-[402px] px-2">
             <div className="space-x-2 justify-end items-center text-copperfield-500">
               <a
@@ -83,7 +82,7 @@ export default function Navbar() {
                 Me contacter
               </a>
               <a href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
-              className="bg-green-700 text-white px-3 py-2 rounded-2xl inline">
+              className="bg-mantis-500 text-white px-3 py-2 rounded-3xl inline ml-8">
                 Doctolib
               </a>
             </div>
@@ -91,12 +90,13 @@ export default function Navbar() {
 
           <div className="flex items-center justify-end lg:hidden">
             <a href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
-              className="bg-green-700 text-white px-3 py-2 rounded-2xl inline">
+              className="bg-mantis-500 text-white px-3 py-2 rounded-3xl inline">
                 Doctolib
               </a>
           </div>
 
-          <div className="absolute inset-y-0 right-0 flex items-center justify-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0 lg:hidden">
+          <div className="absolute inset-y-0 right-0 flex items-center justify-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0 lg:hidden"
+          ref={menuRef}>
             {/* Mobile menu button with hamburger icon */}
             <button
               type="button"
@@ -132,11 +132,11 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden ${
-          isMobileMenuOpen ? "block" : "hidden"
-        } flex justify-end`}
+        className={`lg:hidden fixed right-0 ${
+          isMobileMenuOpen ? "block translate-x-0" : "translate-x-full"
+        } flex justify-end transition-transform duration-400`}
       >
-        <div className="space-y-1 px-2 pt-2 pb-3 bg-gray-50 w-fit">
+        <div className="space-y-1 border border-sky-200 bg-sky-50 rounded-l-xl px-2 pt-2 pb-3 w-fit">
           <a
             href="/"
             className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg text-right whitespace-nowrap"

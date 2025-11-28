@@ -97,9 +97,9 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify(jsonLdData),
           }}
         />
-        <link rel="icon" type="image/svg+xml" href="./images/cityN.svg"></link>
+        <link rel="icon" type="image/svg" href="./images/child3.svg"></link>
       </head>
-      <body className='font-general h-screen grid grid-rows-[1fr_11fr_1fr]'>
+      <body className='font-general text-mako-900 h-screen grid grid-rows-[1fr_11fr_1fr]'>
         <Navbar/>
         {children}
         <Footer />
