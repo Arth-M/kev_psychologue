@@ -2,9 +2,25 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="relative bottom-0 bg-transparent mt-8">
-        <div className="mx-auto w-screen px-4 py-2">
-          <div className="px-15">
+    <footer className="
+          mt-15
+          w-full
+          lg:h-50
+          lg:pt-10
+          md:h-80
+          md:pt-25
+          h-110
+          pt-15
+          border-t-40 border-t-transparent
+          border-b-5 border-b-blue-400
+          border-l-100 border-l-blue-400
+          border-r-100 border-r-blue-400
+          relative bottom-0 bg-blue-400
+          md:[clip-path:polygon(0%_40%,100%_0,100%_100%,0%_100%)]
+          [clip-path:polygon(0%_20%,100%_0,100%_100%,0%_100%)]">
+
+        <div className="mx-auto w-full px-4 py-2">
+          <div className="lg:px-15">
             <hr className=" mb-3 border-gray-300 mx-auto lg:mb-8" />
 
 

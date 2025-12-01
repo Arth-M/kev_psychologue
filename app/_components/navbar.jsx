@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false)
   const menuRef = useRef(null);
 
   // Handle clicking outside to close menu
@@ -23,12 +24,56 @@ export default function Navbar() {
     };
   }, [isMobileMenuOpen]);
 
+  useEffect(() => {
+    const navDiv = document.querySelector('#nav-div')
+    const isMobile = window.innerWidth < 1000 // you can tweak this breakpoint
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.target.id === 'section-1') {
+            const wasVisible = isVisible
+            const nowVisible = !entry.isIntersecting
+            setIsVisible(nowVisible)
+
+            // Only pulse once when visibility state changes for the first time
+            // if (!hasPulsed.current && wasVisible !== nowVisible) {
+            //   const navDiv = document.querySelector("#nav-div")
+            //   if (navDiv) {
+            //     navDiv.classList.add('pulsing')
+            //     setTimeout(() => {
+            //       navDiv.classList.remove('pulsing')
+            //       navDiv.classList.remove('opacity-70')
+            //     }, 1000)
+            //     hasPulsed.current = true // Mark as pulsed permanently
+            //   }
+            // }
+          }
+        })
+      },
+      {
+        threshold: isMobile ? 0.5 : 0.7,
+        rootMargin: isMobile ? '0px 0px 0% 0px' : '0px 0px 0% 0px',
+      }
+    )
+
+    const firstSection = document.querySelector('#section-1')
+    if (firstSection) {
+      observer.observe(firstSection)
+    }
+
+    return () => {
+      if (firstSection) observer.unobserve(firstSection)
+      observer.disconnect()
+    }
+  }, [])
+
+
   return (
-    <nav
-      className="w-screen py-3 bg-transparent tracking-wide text-lg not-arrow-up fixed"
+    <nav id="nav-div"
+      className={`w-full z-90 opacity-70 py-3 tracking-wide text-lg not-arrow-up fixed
+      ${isVisible ? 'bg-white border-b border-b-teal-600 opacity-100' : 'bg-transparent'}`}
     >
-      <div id="nav-div" className="mx-auto w-screen px-2 md:px-10">
-        <div className="relative w-full items-center justify-between px-4 mx-auto grid grid-cols-[minmax(60px,1fr)_minmax(200px,4fr)_minmax(15px,0.5fr)] lg:grid-cols-[minmax(400px,3fr)_minmax(60px,2fr)_minmax(400px,3fr)]">
+        <div className="mx-auto relative md:px-10 w-full items-center justify-between px-4 grid grid-cols-[minmax(60px,1fr)_minmax(200px,4fr)_minmax(15px,0.5fr)] lg:grid-cols-[minmax(400px,3fr)_minmax(40px,1fr)_minmax(400px,3fr)]">
           <div className="hidden lg:flex flex-nowrap items-center justify-end min-w-[402px] px-2">
             <div className="space-x-2 justify-end items-center text-copperfield-500">
               <a
@@ -60,10 +105,10 @@ export default function Navbar() {
               <Image
                 src="/images/child3.svg"
                 alt="Logo de Novurba"
-                width="463"
-                height="452"
+                width="300"
+                height="300"
                 preload="true"
-                className="object-cover w-25 h-fit self-center justify-self-center"
+                className="object-cover w-fit h-15 self-center justify-self-center"
               />
             </a>
           </div>
@@ -128,7 +173,6 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </div>
 
       {/* Mobile menu */}
       <div
