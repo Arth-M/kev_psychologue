@@ -1,7 +1,28 @@
+'use client';
+import Carousel from "./_components/carousel";
+import { useState } from "react";
+
 export default function Home() {
+  const carouselData = [
+    {
+      image: "IMG_2436.jpg",
+    },
+    {
+      image: "IMG_2870.jpg",
+    },
+    {
+      image: "IMG_5995.jpg",
+    },
+  ];
+
+  const [activeItemIndex, setActiveItemIndex] = useState(0);
   return (
-    <div className="mt-30 mask-b-to-90%">
-      <div id="section-1" className="h-90"></div>
+    <div className="mt-0 w-full">
+      <div id="section-1" className="w-full h-screen relative">
+        <Carousel activeItemIndex={activeItemIndex} setActiveItemIndex={setActiveItemIndex} carouselData={carouselData}/>
+      </div>
+      <div className="mask-to-b-90% mt-30"></div>
+      <div className="h-90"></div>
       <h1 className="bg-danube-600">Welcome to Next.js!</h1>
 
       <div

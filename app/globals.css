@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-general: 'Lexend';
+  --font-general: 'Sansation';
+  --font-second: 'DM Serif Text';
   --color-mako-50: #f5f5f6;
   --color-mako-100: #e4e5e9;
   --color-mako-200: #cdd0d4;
@@ -15,17 +16,17 @@
   --color-mako-900: #393a40;
   --color-mako-950: #232429;
 
-  --color-danube-50: #f3f6fb;
-  --color-danube-100: #e3ebf6;
-  --color-danube-200: #cdddf0;
-  --color-danube-300: #abc6e5;
-  --color-danube-400: #749ed2;
-  --color-danube-500: #668ccb;
-  --color-danube-600: #5274be;
-  --color-danube-700: #4862ad;
-  --color-danube-800: #3f528e;
-  --color-danube-900: #374671;
-  --color-danube-950: #252d46;
+--color-blue-ribbon-50: #eff5ff;
+--color-blue-ribbon-100: #dae8ff;
+--color-blue-ribbon-200: #bdd8ff;
+--color-blue-ribbon-300: #90bfff;
+--color-blue-ribbon-400: #5b9dff;
+--color-blue-ribbon-500: #3577fc;
+--color-blue-ribbon-600: #1f56f1;
+--color-blue-ribbon-700: #1741de;
+--color-blue-ribbon-800: #1a36b3;
+--color-blue-ribbon-900: #1b328d;
+--color-blue-ribbon-950: #152156;
 
   --color-mantis-50: #f3faeb;
   --color-mantis-100: #e5f3d4;
@@ -39,7 +40,34 @@
   --color-mantis-900: #304720;
   --color-mantis-950: #17260d;
 
+}
 
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-bold {
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
+  font-style: normal;
 }

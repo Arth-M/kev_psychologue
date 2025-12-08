@@ -11,11 +11,11 @@ export default function Footer() {
           md:pt-25
           h-110
           pt-15
-          border-t-40 border-t-transparent
-          border-b-5 border-b-blue-400
-          border-l-100 border-l-blue-400
-          border-r-100 border-r-blue-400
-          relative bottom-0 bg-blue-400
+          border-t-40/70 border-t-transparent
+          border-b-5/70 border-b-blue-ribbon-600/70
+          border-l-100/70 border-l-blue-ribbon-600/70
+          border-r-100/70 border-r-blue-ribbon-600/70
+          relative bottom-0 bg-blue-ribbon-600/70
           md:[clip-path:polygon(0%_40%,100%_0,100%_100%,0%_100%)]
           [clip-path:polygon(0%_20%,100%_0,100%_100%,0%_100%)]">
 
