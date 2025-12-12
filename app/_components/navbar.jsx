@@ -160,31 +160,38 @@ export default function Navbar() {
         <div className="space-y-1 border border-sky-200 bg-sky-50 rounded-l-xl px-2 pt-2 pb-3 w-fit">
           <a
             href="/"
-            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg text-right whitespace-nowrap"
+            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg ease-in duration-100 text-right whitespace-nowrap"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Accueil
           </a>
           <a
-            href="/notre-expertise"
-            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg text-right whitespace-nowrap"
+            href="/mon-parcours"
+            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg ease-in duration-100 text-right whitespace-nowrap"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Notre expertise
+           Mon parcours
           </a>
           <a
-            href="/nos-realisations"
-            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg text-right whitespace-nowrap"
+            href="/emdr"
+            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg ease-in duration-100 text-right whitespace-nowrap"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Nos réalisations
+           Thérapie EMDR
           </a>
           <a
-            href="/entreprise"
-            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg text-right whitespace-nowrap"
+            href="/pour-qui"
+            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg ease-in duration-100 text-right whitespace-nowrap"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            L'entreprise
+            Pour qui ?
+          </a>
+          <a
+            href="/informations-pratiques"
+            className="block font-light rounded-md px-3 py-2 text-base text-gray-700  hover:text-gray-950 hover:text-lg ease-in duration-100 text-right whitespace-nowrap"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+          Informations pratiques
           </a>
         </div>
       </div>
