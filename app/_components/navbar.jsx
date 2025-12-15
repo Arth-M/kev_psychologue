@@ -50,9 +50,9 @@ export default function Navbar() {
         isVisible
           ? "bg-white border-b border-b-mako-600 opacity-100 ease-in-out transition-colors duration-200"
           : "bg-transparent ease-in-out transition-colors duration-200"
-      } mx-auto relative md:px-10 lg:px-5 pt-4 pb-2 w-full h-full items-center justify-between px-4 grid grid-cols-[minmax(60px,1fr)_minmax(200px,4fr)_minmax(15px,0.5fr)] lg:grid-cols-[minmax(450px,3fr)_minmax(30px,1fr)_minmax(450px,3fr)]`} >
+      } mx-auto relative md:px-10 lg:px-5 pt-4 pb-2 w-full h-full items-center justify-between px-4 grid grid-cols-[minmax(60px,1fr)_minmax(200px,4fr)_minmax(15px,0.5fr)] lg:grid-cols-[minmax(250px,3fr)_minmax(30px,1fr)_minmax(250px,3fr)]`} >
         <div className="hidden lg:flex flex-nowrap items-center justify-end min-w-[402px] px-2">
-          <div className="space-x-2 justify-end items-center text-mako-500">
+          <div className="space-x-4 justify-end items-center text-mako-500">
             <a
               href="/"
               className={`rounded-md font-light text-md  hover:bg-mako-50 hover:text-mako-500 px-2 py-1`}
@@ -66,11 +66,12 @@ export default function Navbar() {
               Mon parcours
             </a>
             <a
-              href="/emdr"
-              className={`text-nowrap rounded-md font-light text-md hover:text-mako-500 hover:bg-mako-50 px-2 py-1`}
+              href="/pour-qui"
+              className={`rounded-md font-light text-md  ${"  hover:text-mako-500 hover:bg-mako-50 px-2 py-1"}`}
             >
-              Thérapie EMDR
+              Pour qui
             </a>
+
           </div>
         </div>
         <div
@@ -84,12 +85,12 @@ export default function Navbar() {
         </svg>
         </div>
         <div className="hidden lg:inline items-center min-w-[402px] px-2">
-          <div className="space-x-2 flex flex-nowrap items-center text-mako-500">
+          <div className="space-x-4 flex flex-nowrap items-center text-mako-500">
             <a
-              href="/pour-qui"
-              className={`rounded-md font-light text-md  ${"  hover:text-mako-500 hover:bg-mako-50 px-2 py-1"}`}
+              href="/emdr"
+              className={`text-nowrap rounded-md font-light text-md hover:text-mako-500 hover:bg-mako-50 px-2 py-1`}
             >
-              Pour qui
+              Thérapie EMDR
             </a>
             <a
               href="/informations-pratiques"
