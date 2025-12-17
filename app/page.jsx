@@ -64,11 +64,13 @@ export default function Home() {
         className="object-cover object-center w-1/3  ml-0 rounded shadow"
       />
       <div className="w-2/3">
-        <p className="text-gray-700 text-xl font-light">
-          Diplômé de l'université Paul Valéry en 2016, j'ai ensuite travaillé dans différentes
-          institutions avant de fonder mon cabinet
+        <p className="text-gray-700 text-xl font-light line-clamp-3">
+          Diplômé de l'université Paul Valéry en 2016, j'ai ensuite travaillé à
+          la bergerie de Faucon avec des adolescents en difficultés, avant de
+          devenir intervenant en espace de rencontre pour l'association Adages
+          où j'étais médiateur lors des droits de visites entre parents et enfants de tout âge.
         </p>
-        <div className="pt-2 w-fit mr-0 ml-auto">
+        <div className="pt-2 w-fit mr-0 ml-auto hover:translate-x-0.5 hover:scale-102 ">
         <a href="/mon-parcours" className="text-gray-600 tracking-wide">En savoir plus
         <Image
         src={`/images/right-arrow_7.svg`}
