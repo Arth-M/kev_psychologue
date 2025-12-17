@@ -2,11 +2,19 @@ import Image from "next/image";
 
 export default function MonParcours() {
   return (
-    <div>
-    <div id="section-1" className="w-full bg-gray-400 mt-22" >
-      <div className="w-4/5 mx-auto py-10" >
-        <h1 className="text-2xl text-white font-light tracking-wider underline decoration-gray-50 decoration-1 underline-offset-4" >Mon parcours</h1>
-        <p className="text-white text-lg mt-8 ">
+    <div id="section-1">
+    <div className="w-full bg-gray-400 mt-22 relative rounded-b-lg" >
+      <Image
+            src={`/images/chemin.jpeg`}
+            alt="Image d'étude"
+            width="3024"
+            height="4032"
+            preload="true"
+            className="object-cover object-[0%_5%] w-full h-70 opacity-60 bg-fixed"
+          />
+        <h1 className="absolute top-30 w-full text-center ml-2 text-5xl text-white font-light tracking-wider underline decoration-gray-50 decoration-1 underline-offset-4" >Mon parcours</h1>
+      <div className="w-4/5 mx-auto pt-15 pb-10" >
+        <p className="text-white text-lg">
           J’ai été diplômé à l’université de Lettres Paul VALERY de Montpellier en 2016.
         </p>
         <div className="flex mt-10 space-x-10 items-center w-full">
@@ -28,7 +36,11 @@ export default function MonParcours() {
             Les médiations corporelles comme chemin de Nostrité et de réalisation de soi.
           </p>
         </div>
+        </div>
+        </div>
 
+        <div className="w-full bg-gray-400 mt-0.5 relative rounded-t-lg" >
+        <div className="w-4/5 mx-auto pt-10 pb-10" >
          <div className="flex mt-6 space-x-10 items-center w-full">
           <p className="text-white text-lg mt-2 w-3/5 text-justify">
             A l’obtention du diplôme, j’ai tout de suite était engagé à la bergerie de Faucon.
@@ -50,6 +62,7 @@ export default function MonParcours() {
 
         </div>
       </div>
+
 
 
     </div>
