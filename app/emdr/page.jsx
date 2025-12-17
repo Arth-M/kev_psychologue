@@ -53,16 +53,14 @@ export default function Emdr() {
 
 
       <div className="relative w-full bg-slate-400 border-t border-white" >
-        <div className="absolute w-fit -top-14 right-0 bg-slate-400 rounded-tl-lg border-t border-l border-white">
+        {/* <div className="absolute w-fit -top-14 right-0 bg-slate-400 rounded-tl-lg border-t border-l border-white">
           <h1 className="text-2xl text-center rounded-tl-lg pt-3 md:pr-33 md:pl-4 px-4 text-white font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
           <hr className="w-45 text-gray-50 md:mr-33 ml-auto mt-3"/>
-        </div>
+        </div> */}
 
 
         <div className="pt-10 w-4/5 mx-auto flex">
-          Thérapie EMDR (suite)
-
-          Comment se passe un traitement EMDR?
+          <h1 className="text-2xl text-center rounded-tl-lg pt-3 md:pr-33 md:pl-4 px-4 text-white font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
 
           PREPARATION
           La préparation au traitement est indispensable, les entretiens préliminaires permettent de :
