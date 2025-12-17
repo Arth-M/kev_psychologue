@@ -35,12 +35,12 @@ export default function Home() {
         <div className="flex mt-10 space-x-4">
         <div className="w-full">
           <p className="text-white text-xl font-light mt-10 w-4/5">
-            Besoin de faire une pause <br></br>
+            Besoin de faire une pause, <br></br>
             De prendre du temps pour vous.
           </p>
 
       <p className="text-white text-xl font-light w-4/5 pt-10">
-        Je vous propose de nous rencontrer afin de définir ensemble ce qui peut être amélioré et pourquoi pas un nouvel horizon
+        Je vous propose de nous rencontrer afin de définir ensemble ce qui peut être amélioré et pourquoi pas un nouvel horizon.
       </p>
       </div>
           <Image
@@ -66,9 +66,9 @@ export default function Home() {
       />
       <div className="w-2/3">
         <p className="text-gray-700 text-xl font-light line-clamp-3">
-          Diplômé de l'université Paul Valéry en 2016, j'ai ensuite travaillé à
+          Diplômé de l'université Paul Valéry en 2016, j'ai commencé par travailler à
           la bergerie de Faucon avec des adolescents en difficultés. J'ai ensuite
-          travaillé comme médiateur en espace de rencontre pour l'association Adages
+          été médiateur en espace de rencontre pour l'association Adages
           lors des droits de visites entre parents et enfants de tout âge.
         </p>
         <div className="pt-2 w-fit mr-0 ml-auto hover:translate-x-0.5 hover:scale-102 ">
