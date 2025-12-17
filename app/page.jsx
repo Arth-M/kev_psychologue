@@ -32,24 +32,24 @@ export default function Home() {
       <div className="w-4/5 mx-auto mt-10">
         <p className="text-white text-2xl font-light">Quelque chose vous bloque où ne passe pas?</p>
         <hr className="w-1/7 mt-5 text-gray-100" />
-        <div className="flex mt-10 space-x-4">
-        <div className="w-full">
-          <p className="text-white text-xl font-light mt-10 w-4/5">
-            Besoin de faire une pause, <br></br>
-            De prendre du temps pour vous.
-          </p>
+        <div className="flex flex-wrap mt-10 space-x-4">
+          <div className="w-1/2">
+            <p className="text-white text-xl font-light mt-10 w-4/5">
+              Besoin de faire une pause, <br></br>
+              De prendre du temps pour vous.
+            </p>
 
-      <p className="text-white text-xl font-light w-4/5 pt-10">
-        Je vous propose de nous rencontrer afin de définir ensemble ce qui peut être amélioré et pourquoi pas un nouvel horizon.
-      </p>
-      </div>
+            <p className="text-white text-xl font-light w-4/5 pt-10">
+              Je vous propose de nous rencontrer afin de définir ensemble ce qui peut être amélioré et pourquoi pas un nouvel horizon.
+            </p>
+          </div>
           <Image
-            src={`/images/IMG_6063.jpg`}
+            src={`/images/IMG_6021.jpg`}
             alt="Images de paysages"
-            width="3024"
-            height="4032"
+            width="4032"
+            height="3024"
             preload="true"
-            className="object-cover object-center w-1/3  mr-0 ml-auto rounded shadow"
+            className="object-cover object-center md:w-1/2 -mr-10 ml-auto rounded shadow"
           />
         </div>
       </div>
