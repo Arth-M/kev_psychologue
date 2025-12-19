@@ -10,7 +10,7 @@ export default function PourQui() {
 
     <Image
         src={`/images/IMG_2315.jpg`}
-        alt="Image du cabinet"
+        alt="Image d'un caillou taillé"
         width="3024"
         height="3024"
         preload="true"

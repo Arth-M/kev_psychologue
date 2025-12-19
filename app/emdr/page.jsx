@@ -51,7 +51,7 @@ export default function Emdr() {
         </div>
       </div>
 
-      <div className="w-20 flex bg-slate-400 mx-auto rotate-8">
+      <div className="w-20 flex bg-gray-400/50 mx-auto rotate-8">
         <hr className="w-1 mx-auto h-1 text-slate-400"/>
       </div>
 
@@ -63,40 +63,59 @@ export default function Emdr() {
         </div> */}
 
 
-        <div className="relative w-full pt-10 bg-[url(/images/help.jpg)] md:bg-fixed h-120 bg-size-[100%_auto] bg-center bg-origin-border bg-no-repeat">
+      <div className="relative w-full pt-10 background md:bg-fixed bg-size-[100%_auto] bg-center bg-no-repeat">
 
-          <p className="text-slate-500 opacity-60 text-xs text-end">
-            @Photo de <a href="https://unsplash.com/fr/@youssefnaddam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">youssef naddam</a> sur <a href="https://unsplash.com/fr/photos/two-persons-arms-iJ2IG8ckCpA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-          </p>
 
         <div className="w-4/5 mx-auto">
-          <h1 className="text-2xl text-end rounded-tl-lg pt-3 text-white font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
-          <hr className="w-25 text-gray-50 mr-0 ml-auto"/>
+          <h1 className="text-2xl text-end rounded-tl-lg pt-3 text-gray-500 font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
+          <hr className="w-25 text-gray-500 mr-0 ml-auto"/>
         </div>
 
-          <p className="text-justify w-2/3 text-white font-light text-lg mt-1">
-          PREPARATION
-          La préparation au traitement est indispensable, les entretiens préliminaires permettent de :
-          Construire une relation thérapeutique de confiance.
-          Valider l’indication de la thérapie EMDR et de définir l’objectif de la thérapie.
-          Apprendre la pratique de moyen de stabilisation émotionnelle qui peuvent être utilisé en cours de séance et pratiqué a domicile entre les séances.
+        <div className="flex w-4/5 space-x-8 mx-auto relative">
+          <div className="w-1/3 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+            <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
+            Préparation
+            </h2>
+            <p className="text-justify text-gray-500 font-light text-lg mt-1">
+            La préparation au traitement est indispensable, les entretiens préliminaires permettent de :
+            Construire une relation thérapeutique de confiance.
+            Valider l’indication de la thérapie EMDR et de définir l’objectif de la thérapie.
+            Apprendre la pratique de moyen de stabilisation émotionnelle qui peuvent être utilisé en cours de séance et pratiqué a domicile entre les séances.
+            </p>
+          </div>
+
+          <div className="mt-40 w-1/3 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+            <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
+            Séances de traitement
+            </h2>
+            <p className="text-justify text-gray-500 font-light text-lg mt-1">
+            Lorsque la personne est prête, le traitement à proprement parlé peut commencer. Suivant là où les problématiques du patient cela peut prendre un certain temps.
+            Les souvenirs perturbants à l’origine de la problématique du patient sont alors retraité l’un après l’autre.
+            Un souvenir peut nécessiter plusieurs séances.
+            Le patient est invité à se concentrer sur le souvenir traumatisant et toute ses composantes : sensations, émotions, pensée négative sur lui. Ensuite le patient suit le mouvement des doits du thérapeute en laissant venir ses pensées.
+            D’autres stimulations bilatérale comme les sons où les tapotements peuvent être utilisé.
+            </p>
+          </div>
+
+          <div className="mt-80 mb-10 w-1/3 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+            <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
+            Que se passe-t-il ?
+            </h2>
+            <p className="text-justify text-gray-500 font-light text-lg mt-1">
+            C’est un processus de libre association des idées, sensations, émotions, pensée qui se déroule alors, de la même manière que lorsque nous rêvons la nuit.
+            Entre chaque série de stimulations, la patient dit ce qui lui vient spontanément à l’esprit. Nous effectuons des séries de stimulation jusqu’à ce que le souvenir ne génère plus de perturbation chez le patient.
+            Le retraitement de ce souvenir se termine par l’installation d’une pensée positive que de bonne sensation corporelle confirment.
+
+            Une séance d’EMDR dure autour de 60 minutes.
+            </p>
+          </div>
+
+        </div>
+        <p className="text-gray-400 opacity-60 text-xs text-end pr-3">
+          @Photo de <a href="https://unsplash.com/fr/@youssefnaddam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">youssef naddam</a> sur <a href="https://unsplash.com/fr/photos/two-persons-arms-iJ2IG8ckCpA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
 
 
-          SEANCES DE TRAITEMENT
-
-          Lorsque la personne est prête, le traitement à proprement parlé peut commencer. Suivant là où les problématiques du patient cela peut prendre un certain temps.
-          Les souvenirs perturbants à l’origine de la problématique du patient sont alors retraité l’un après l’autre.
-          Un souvenir peut nécessiter plusieurs séances.
-
-          Le patient est invité à se concentrer sur le souvenir traumatisant et toute ses composantes : sensations, émotions, pensée négative sur lui. Ensuite le patient suit le mouvement des doits du thérapeute en laissant venir ce qui vient spontanément.
-          D’autres stimulations bilatérale comme les sons où les tapotements peuvent être utilisé.
-          C’est un processus de libre association des idées, sensations, émotions, pensée qui se déroule alors, de la même manière que lorsque nous rêvons la nuit.
-          Entre chaque série de stimulations, la patient dit ce qui lui vient spontanément à l’esprit. Nous effectuons des séries de stimulation jusqu’à ce que le souvenir ne génère plus de perturbation chez le patient.
-          Le retraitement de ce souvenir se termine par l’installation d’une pensée positive que de bonne sensation corporelle confirment.
-
-          Une séance d’EMDR dure autour de 60 minutes.
-          </p>
-        
       </div>
     </div>
   )

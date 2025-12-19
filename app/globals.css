@@ -65,3 +65,17 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.background {
+  background-image: url('/images/help.jpg');
+    background-color: rgba(255, 249, 249, 0.5);
+    background-blend-mode: overlay;
+    /* You may add things like width, height, background-size... */
+}
+
+.background2 {
+  background-image: url('/images/help-horizontal.jpeg');
+    background-color: rgba(255, 249, 249, 0.8);
+    background-blend-mode: overlay;
+    /* You may add things like width, height, background-size... */
+}
