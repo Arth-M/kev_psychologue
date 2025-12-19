@@ -65,7 +65,7 @@ export default function Home() {
         className="object-cover object-center w-1/3  ml-0 rounded shadow"
       />
       <div className="w-2/3">
-        <p className="text-gray-700 text-xl font-light line-clamp-3">
+        <p className="text-gray-700 text-xl font-light line-clamp-3 text-justify">
           Diplômé de l'université Paul Valéry en 2016, j'ai commencé par travailler à
           la bergerie de Faucon avec des adolescents en difficultés. J'ai ensuite
           été médiateur en espace de rencontre pour l'association Adages

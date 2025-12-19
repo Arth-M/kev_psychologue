@@ -97,6 +97,9 @@ export default function RootLayout({ children }) {
           }}
         />
         <link rel="icon" type="image/svg" href="./images/phoenix.svg"></link>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+        </style>
       </head>
       <body className="sansation-regular text-mako-900 h-screen grid grid-rows-[1fr_11fr_1fr]">
         <Navbar />

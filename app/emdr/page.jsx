@@ -42,7 +42,7 @@ export default function Emdr() {
           </div>
           <Image
             src={`/images/IMG_6091.jpg`}
-            alt="Image d'étude"
+            alt="Image de vitre glacée"
             width="3024"
             height="4032"
             preload="true"
@@ -51,17 +51,30 @@ export default function Emdr() {
         </div>
       </div>
 
+      <div className="w-20 flex bg-slate-400 mx-auto rotate-8">
+        <hr className="w-1 mx-auto h-1 text-slate-400"/>
+      </div>
 
-      <div className="relative w-full bg-slate-400 border-t border-white" >
+
+
         {/* <div className="absolute w-fit -top-14 right-0 bg-slate-400 rounded-tl-lg border-t border-l border-white">
           <h1 className="text-2xl text-center rounded-tl-lg pt-3 md:pr-33 md:pl-4 px-4 text-white font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
           <hr className="w-45 text-gray-50 md:mr-33 ml-auto mt-3"/>
         </div> */}
 
 
-        <div className="pt-10 w-4/5 mx-auto flex">
-          <h1 className="text-2xl text-center rounded-tl-lg pt-3 md:pr-33 md:pl-4 px-4 text-white font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
+        <div className="relative w-full pt-10 bg-[url(/images/help.jpg)] md:bg-fixed h-120 bg-size-[100%_auto] bg-center bg-origin-border bg-no-repeat">
 
+          <p className="text-slate-500 opacity-60 text-xs text-end">
+            @Photo de <a href="https://unsplash.com/fr/@youssefnaddam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">youssef naddam</a> sur <a href="https://unsplash.com/fr/photos/two-persons-arms-iJ2IG8ckCpA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </p>
+
+        <div className="w-4/5 mx-auto">
+          <h1 className="text-2xl text-end rounded-tl-lg pt-3 text-white font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
+          <hr className="w-25 text-gray-50 mr-0 ml-auto"/>
+        </div>
+
+          <p className="text-justify w-2/3 text-white font-light text-lg mt-1">
           PREPARATION
           La préparation au traitement est indispensable, les entretiens préliminaires permettent de :
           Construire une relation thérapeutique de confiance.
@@ -82,7 +95,8 @@ export default function Emdr() {
           Le retraitement de ce souvenir se termine par l’installation d’une pensée positive que de bonne sensation corporelle confirment.
 
           Une séance d’EMDR dure autour de 60 minutes.
-        </div>
+          </p>
+        
       </div>
     </div>
   )

@@ -43,7 +43,7 @@ export default function Navbar() {
   return (
     <nav
       id="nav-div"
-      className={`w-full z-90 tracking-wide text-2xl not-arrow-up fixed top-0 left-0 dm-serif-text-bold`}
+      className={`w-full z-90 tracking-wide text-xl not-arrow-up fixed top-0 left-0 `}
 
     >
       <div className={`opacity-70 ${
@@ -100,7 +100,7 @@ export default function Navbar() {
             </a>
             <a
               href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
-              className="bg-mantis-700 font-bold text-mantis-50 px-5 py-3 rounded-3xl inline ml-auto"
+              className="sansation-bold bg-mantis-500 text-mantis-50 text-2xl px-5 py-3 rounded-3xl inline ml-autotracking-widest"
             target="_blank">
               Doctolib
             </a>
@@ -110,7 +110,7 @@ export default function Navbar() {
         <div className="flex items-center justify-end lg:hidden">
           <a
             href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
-            className="bg-mantis-700 text-white px-3 py-2 rounded-3xl inline"
+            className="sansation-bold bg-mantis-500 text-mantis-50 text-xl px-3 py-2 rounded-3xl inline ml-autotracking-widest"
            target="_blank">
             Doctolib
           </a>
@@ -127,7 +127,7 @@ export default function Navbar() {
               e.stopPropagation();
               setIsMobileMenuOpen(!isMobileMenuOpen);
             }}
-            className="relative inline-flex items-center justify-center content-center rounded-md my-auto px-0 text-gray-600  focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500 z-50"
+            className="relative inline-flex items-center justify-center content-center pt-1 rounded-md my-auto px-0 text-gray-900  focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500 z-50"
           >
             <span className="sr-only">Open main menu</span>
             {/* Hamburger Icon */}

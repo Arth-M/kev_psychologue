@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MonParcours() {
   return (
     <div id="section-1">
-    <div className="w-full bg-gray-400 relative mt-22 " >
+    <div className="w-full bg-gray-400 relative mt-22 pb-8" >
 
       <div className="relative z-0 ">
         <div className="w-fit absolute z-40 top-27">
@@ -13,26 +13,34 @@ export default function MonParcours() {
 
         <Image
             src={`/images/IMG_2465.jpg`}
-            alt="Image d'étude"
+            alt="Image de paysage"
             width="3024"
             height="4032"
             preload="true"
             className="object-cover object-[0%_45%] h-40 z-10"
           />
+
       </div>
       <div className="w-4/5 mx-auto pt-15 pb-10" >
         <p className="text-white text-lg font-light">
           J’ai été diplômé à l’université de Lettres Paul VALERY de Montpellier en 2016.
         </p>
         <div className="flex flex-wrap mt-10 space-x-10 items-center w-full">
-          <Image
-            src={`/images/etudes.jpg`}
-            alt="Image d'étude"
-            width="5184"
-            height="3456"
-            preload="true"
-            className="object-cover object-center w-1/3 md:-ml-6"
-          />
+          <div className="w-1/3 md:-ml-6">
+
+            <Image
+              src={`/images/etudes.jpg`}
+              alt="Image d'étude"
+              width="5184"
+              height="3456"
+              preload="true"
+              className="object-cover object-center w-full "
+            />
+            <p className="text-xs text-end text-gray-600 opacity-60">
+            @Photo de <a href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unseen Studio</a> sur <a href="https://unsplash.com/fr/photos/personne-ecrivant-sur-une-table-en-bois-brun-pres-dune-tasse-en-ceramique-blanche-s9CC2SKySJM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+          </div>
+
           <p className="text-white text-lg w-3/5 text-justify font-light">
             J’ai suivi le parcours : Phénoménologie clinique du sportif et des problématiques corporelles
             Pour le Master 1, j’ai écris et soutenus le mémoire :
@@ -42,11 +50,15 @@ export default function MonParcours() {
             « Se rencontrer et devenir »
             Les médiations corporelles comme chemin de Nostrité et de réalisation de soi.
           </p>
+
         </div>
         </div>
         </div>
 
-        <div className="w-full flex bg-gray-400 mx-auto px-20">
+        <div className="w-60 flex bg-gray-400 mx-auto -rotate-4">
+        <hr className="w-1 mx-auto h-2 text-gray-400"/>
+        </div>
+        {/* <div className="w-full flex bg-gray-400 mx-auto px-20 -rotate-4 z-40">
         <hr className="w-0.5 text-gray-50 mr-[12%]"/>
         <hr className="w-0.5 text-gray-50 mr-[10%]"/>
         <hr className="w-0.5 text-gray-50 mr-[7%]"/>
@@ -58,12 +70,12 @@ export default function MonParcours() {
         <hr className="w-0.5 text-gray-50 ml-[4%]"/>
         <hr className="w-0.5 text-gray-50 ml-[5%]"/>
         <hr className="w-0.5 text-gray-50 ml-[7%]"/>
-        <hr className="w-0.5 text-gray-50 ml-[10%]"/>
-        <hr className="w-0.5 text-gray-50 ml-[12%]"/>
-        </div>
+        <hr className="w-0.5 h-2 text-gray-50 ml-[10%]"/>
+        <hr className="w-0.5 h-0.5 text-gray-50 ml-[12%]"/>
+        </div> */}
 
-        <div className="w-full bg-gray-400 relative mt-0.3" >
-        <div className="w-4/5 mx-auto pt-5 pb-10" >
+        <div className="w-full bg-gray-400 relative -mt-0.5 isolate" >
+        <div className="w-4/5 mx-auto pt-10 pb-10" >
          <div className="flex mt-6 space-x-10 items-center w-full">
           <div className="w-3/5 text-wrap">
           <p className="text-white text-lg mt-2 text-justify font-light ">

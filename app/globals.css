@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 @import "tailwindcss";
 
 @theme {
@@ -60,14 +60,8 @@
   font-style: normal;
 }
 
-.dm-serif-text-regular {
-  font-family: "DM Serif Text", serif;
+.chewy {
+  font-family: "Chewy", system-ui;
   font-weight: 400;
-  font-style: normal;
-}
-
-.dm-serif-text-bold {
-  font-family: "DM Serif Text", serif;
-  font-weight: 700;
   font-style: normal;
 }
