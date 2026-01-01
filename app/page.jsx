@@ -113,9 +113,9 @@ export default function Home() {
     </div>
 
     <div className="relative w-full background2 md:bg-fixed bg-size-[100%_auto] bg-center bg-no-repeat">
-      <div className="w-4/5 mx-auto space-x-10 py-10">
+      <div className="w-16/25 mx-auto space-x-10 py-20">
         <h2 className="text-2xl text-gray-500">Thérapie EMDR</h2>
-        <p className='text-xl text-gray-500 mt-5 w-4/5 mr-0 ml-auto line-clamp-3 '>La thérapie EMDR (pour <span className="font-normal italic">Eye movement desensitization and reprocessing</span>)
+        <p className='text-xl text-gray-500 mt-5 mr-0 ml-auto line-clamp-3 '>La thérapie EMDR (pour <span className="font-normal italic">Eye movement desensitization and reprocessing</span>)
         aide à traiter les séquelles psychologiques liées à des évènements de vie perturbant. Elle est aussi indiquée
         dans le cas des phobies, des addictions ou encore des traumas. Des entretiens préliminaires nous permettront d'évaluer si
         l'EMDR est indiquée dans votre cas.

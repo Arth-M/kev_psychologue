@@ -62,7 +62,7 @@ export default function Footer() {
               preload="false"
               className="h-5 w-5 inline mb-1 mr-2"
             />
-            <p className="inline text-nowrap">39 rue Colombiers, 34670 Baillargues</p>
+            <p className="inline text-nowrap">39 rue de Colombiers, 34670 Baillargues</p>
             </a>
           </div>
         </div>

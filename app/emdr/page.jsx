@@ -51,9 +51,9 @@ export default function Emdr() {
         </div>
       </div>
 
-      <div className="w-20 flex bg-gray-400/50 mx-auto rotate-8">
-        <hr className="w-1 mx-auto h-1 text-slate-400"/>
-      </div>
+      <div className="w-60 flex bg-gray-400/40 mx-auto rotate-10">
+        <hr className="w-1 mx-auto h-1 text-gray-400/50"/>
+        </div>
 
 
 
