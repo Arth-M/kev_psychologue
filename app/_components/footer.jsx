@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="
           mt-15
           w-full
-          lg:h-113
+          lg:h-120
           lg:pt-15
-          md:h-115
+          md:h-120
           md:pt-15
           h-125
           pt-8
