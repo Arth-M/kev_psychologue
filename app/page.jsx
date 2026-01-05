@@ -55,7 +55,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="flex w-4/5 mx-auto mt-20 space-x-10 items-center">
+    <div className="flex w-4/5 mx-auto my-20 space-x-10 items-center">
       <Image
         src={`/images/IMG_3081.jpg`}
         alt="Image du cabinet"
@@ -86,8 +86,8 @@ export default function Home() {
        </div>
     </div>
 
-    <div className="w-full bg-gray-400">
-      <div className="flex w-4/5 mx-auto mt-20 space-x-10 bg-gray-400 items-center py-10">
+    <div className="w-full bg-gray-400 py-20">
+      <div className="flex w-4/5 mx-auto space-x-10 items-center">
         <div className="w-2/3">
           <p className="text-white text-xl font-light line-clamp-3 text-justify">
             Les thérapies que je propose s'adressent aux adolescents et aux adultes. Les personnes souffrant

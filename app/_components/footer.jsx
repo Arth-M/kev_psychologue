@@ -9,7 +9,7 @@ export default function Footer() {
           lg:pt-15
           md:h-115
           md:pt-15
-          h-120
+          h-125
           pt-8
           border-t-40/70 border-t-transparent
           border-b-5/70 border-b-gray-300/70

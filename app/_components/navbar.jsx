@@ -96,13 +96,13 @@ export default function Navbar() {
               href="/informations-pratiques"
               className={`rounded-md font-light inline text-md  ${"  hover:text-mako-500 hover:bg-mako-50 px-2 py-1"}`}
             >
-              Informations
+              Consultations
             </a>
             <a
               href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
-              className="sansation-bold bg-teal-500 text-mantis-50 text-2xl px-4 py-2 rounded-4xl inline ml-autotracking-widest"
+              className="sansation-bold bg-cyan-400 text-white text-2xl px-4 py-2 rounded-4xl inline ml-autotracking-widest"
             target="_blank">
-              Doctolib
+              <p className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.6)]">Doctolib</p>
             </a>
           </div>
         </div>
@@ -110,9 +110,9 @@ export default function Navbar() {
         <div className="flex items-center justify-end lg:hidden">
           <a
             href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
-            className="sansation-bold bg-teal-500 text-mantis-50 text-xl px-3 py-2 rounded-3xl inline ml-autotracking-widest"
+            className="sansation-bold bg-cyan-400 text-mantis-50 text-xl px-3 py-2 rounded-3xl inline ml-autotracking-widest"
            target="_blank">
-            Doctolib
+            <p className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.6)]">Doctolib</p>
           </a>
         </div>
 
