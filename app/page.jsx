@@ -28,8 +28,8 @@ export default function Home() {
       h-20 bg-teal-300">
       </div> */}
 
-    <div className="bg-gray-400 w-full px-10 py-10">
-      <div className="w-4/5 mx-auto mt-10">
+    <div className="bg-gray-400 w-full px-10 py-20">
+      <div className="w-4/5 mx-auto">
         <p className="text-white text-2xl font-light">Quelque chose vous bloque où ne passe pas?</p>
         <hr className="w-1/7 mt-5 text-gray-100" />
         <div className="flex flex-wrap mt-10 space-x-4">

@@ -6,8 +6,8 @@ export default function Emdr() {
       <div className="w-full bg-gray-400 relative mt-22 pb-30" >
 
         <div className="relative z-0 ">
-          <div className="w-fit absolute z-40 top-27">
-            <h1 className="text-3xl text-center rounded-r-lg py-3 md:pl-33 md:pr-4 px-4 bg-gray-400 text-white font-light tracking-wider" >Thérapie EMDR</h1>
+          <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35">
+            <h1 className="text-3xl text-center rounded-r-lg py-2 md:pl-30 md:pr-4 px-4 text-white font-light tracking-wider lg:drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]" >Thérapie EMDR</h1>
             <hr className="w-25 text-gray-50 md:ml-33 ml-4"/>
           </div>
 
@@ -51,9 +51,9 @@ export default function Emdr() {
         </div>
       </div>
 
-      <div className="w-60 flex bg-gray-400/40 mx-auto rotate-10">
-        <hr className="w-1 mx-auto h-1 text-gray-400/50"/>
-        </div>
+
+        <hr className="w-full mx-auto h-1 text-white"/>
+
 
 
 
@@ -63,16 +63,16 @@ export default function Emdr() {
         </div> */}
 
 
-      <div className="relative w-full pt-10 background md:bg-fixed bg-size-[100%_auto] bg-center bg-no-repeat">
+      <div className="relative w-full h-500 sm:h-450 lg:h-350 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
 
 
-        <div className="w-4/5 mx-auto">
+        <div className="w-4/5 mx-auto mb-15">
           <h1 className="text-2xl text-end rounded-tl-lg pt-3 text-gray-500 font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
           <hr className="w-25 text-gray-500 mr-0 ml-auto"/>
         </div>
 
-        <div className="flex w-4/5 space-x-8 mx-auto relative">
-          <div className="w-1/3 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+        <div className="flex flex-wrap w-4/5 mx-auto place-content-around">
+          <div className="lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Préparation
             </h2>
@@ -84,7 +84,7 @@ export default function Emdr() {
             </p>
           </div>
 
-          <div className="mt-40 w-1/3 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+          <div className="md:mt-40 mt-15 lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Séances de traitement
             </h2>
@@ -97,7 +97,7 @@ export default function Emdr() {
             </p>
           </div>
 
-          <div className="mt-80 mb-10 w-1/3 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+          <div className="lg:mt-80 mt-15 mb-10 lg:w-1/3 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Que se passe-t-il ?
             </h2>

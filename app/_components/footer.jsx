@@ -9,13 +9,13 @@ export default function Footer() {
           lg:pt-15
           md:h-120
           md:pt-15
-          h-125
+          h-120
           pt-8
           border-t-40/70 border-t-transparent
           border-b-5/70 border-b-gray-300/70
           border-l-100/70 border-l-gray-300/70
           border-r-100/70 border-r-gray-300/70
-          relative bottom-0 bg-gray-300/70
+          relative z-90 bottom-0 bg-slate-200
           md:[clip-path:polygon(0%_40%,100%_0,100%_100%,0%_100%)]
           [clip-path:polygon(0%_20%,100%_0,100%_100%,0%_100%)]">
 
