@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Emdr() {
   return (
     <div id="section-1">
-      <div className="w-full bg-gray-400 relative mt-22 pb-30" >
+      <div className="w-full bg-gray-400 relative mt-20 pb-30" >
 
         <div className="relative z-0 ">
           <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35">
@@ -63,7 +63,7 @@ export default function Emdr() {
         </div> */}
 
 
-      <div className="relative w-full h-500 sm:h-450 lg:h-350 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
+      <div className="relative w-full h-500 sm:h-470 lg:h-350 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
 
 
         <div className="w-4/5 mx-auto mb-15">

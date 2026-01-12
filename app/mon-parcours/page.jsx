@@ -2,25 +2,25 @@ import Image from "next/image";
 
 export default function MonParcours() {
   return (
-    <div id="section-1">
-    <div className="w-full bg-gray-400 relative mt-22 pb-8" >
+    <div id="section-1" className="relative">
+      <div className="w-full bg-gray-400 mt-20 pb-8" >
 
-      <div className="relative z-0 ">
-        <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35">
-          <h1 className="text-3xl text-center rounded-r-lg py-2 md:pl-30 md:pr-4 px-4 text-white font-light tracking-wider" >Mon parcours</h1>
-          <hr className="w-25 text-gray-50 md:ml-30 ml-4"/>
+        <div className="relative z-0 ">
+          <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35">
+            <h1 className="text-3xl text-center rounded-r-lg py-2 md:pl-30 md:pr-4 px-4 text-white font-light tracking-wider" >Mon parcours</h1>
+            <hr className="w-25 text-gray-50 md:ml-30 ml-4"/>
+          </div>
+
+          <Image
+              src={`/images/IMG_2465.jpg`}
+              alt="Image de paysage"
+              width="3024"
+              height="4032"
+              preload="true"
+              className="object-cover object-[0%_45%] h-40 z-10"
+            />
+
         </div>
-
-        <Image
-            src={`/images/IMG_2465.jpg`}
-            alt="Image de paysage"
-            width="3024"
-            height="4032"
-            preload="true"
-            className="object-cover object-[0%_45%] h-40 z-10"
-          />
-
-      </div>
       <div className="w-4/5 mx-auto pt-15 pb-10" >
         <p className="text-white text-lg font-light">
           J’ai été diplômé à l’université de Lettres Paul VALERY de Montpellier en 2016.
@@ -74,7 +74,7 @@ export default function MonParcours() {
         <hr className="w-0.5 h-0.5 text-gray-50 ml-[12%]"/>
         </div> */}
 
-        <div className="w-full bg-gray-400 relative -mt-0.5 isolate h-200 -mb-70" >
+        <div className="w-full bg-gray-400 relative -mt-0.5 isolate h-240 -mb-70" >
         <div className="w-4/5 mx-auto pt-10 pb-10" >
          <div className="flex mt-6 space-x-10 items-center w-full">
           <div className="w-3/5 text-wrap">

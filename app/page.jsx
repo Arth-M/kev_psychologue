@@ -95,7 +95,7 @@ export default function Home() {
             des solutions.
           </p>
           <div className="pt-2 w-fit mr-0 ml-auto hover:translate-x-0.5 hover:scale-102 ">
-          <a href="/pour-qui" className="text-white tracking-wide">En savoir plus
+          <a href="/consultations" className="text-white tracking-wide">En savoir plus
           <svg id="Layer_1" className="fill-white h-9 w-15 inline -ml-3 -mr-3" enableBackground="new 0 0 100 100" height="512" viewBox="0 0 100 100" width="500" xmlns="http://www.w3.org/2000/svg"><path d="m86.29 52h-51.69c-1.1 0-2-.9-2-2s.9-2 2-2h51.69c1.1 0 2 .9 2 2s-.9 2-2 2z"/><path clipRule="evenodd" d="m16.45 48c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .89-2 2-2z" fillRule="evenodd"/><circle clipRule="evenodd" cx="25.52" cy="50" fillRule="evenodd" r="2"/><path d="m73 67.62c-.46 0-.92-.16-1.29-.48-.84-.72-.94-1.98-.23-2.82l12.18-14.32-12.18-14.33c-.72-.84-.61-2.1.23-2.82s2.1-.61 2.82.23l13.28 15.62c.63.75.63 1.84 0 2.59l-13.28 15.63c-.4.47-.96.7-1.53.7z"/></svg>
           </a>
           <hr className="w-full text-white -mt-1.5"/>
