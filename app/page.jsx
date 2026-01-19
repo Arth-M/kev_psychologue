@@ -90,7 +90,7 @@ export default function Home() {
       <div className="flex w-4/5 mx-auto space-x-10 items-center">
         <div className="w-2/3">
           <p className="text-white text-xl font-light line-clamp-3 text-justify">
-            Les thérapies que je propose s'adressent aux adolescents et aux adultes. Les personnes souffrant
+            Les consultations se déroulent dans mon cabinet situé à Baillargues. Les thérapies que je propose s'adressent aux adolescents et aux adultes. Les personnes souffrant
             de phobies, d'addictions ou de traumas profonds sont aussi les bienvenues, ensemble nous essaierons trouver
             des solutions.
           </p>
@@ -129,9 +129,6 @@ export default function Home() {
 
       </div>
     </div>
-
-    <p className="text-5xl mt-25">Ajouter des éléments qui résument rapidement pour qui et emdr avec liens vers les pages</p>
-
 
     </div>
   );
