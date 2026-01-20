@@ -1,19 +1,42 @@
+'use client'
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Emdr() {
+  useEffect(() => {
+      const contentToShow = document.querySelectorAll(".to-show")
+      const observer = new IntersectionObserver(
+        entries => {
+          entries.forEach(entry => {
+            entry.target.classList.toggle("show", entry.isIntersecting)
+            if (entry.isIntersecting) observer.unobserve(entry.target)
+          })
+        },
+        {
+          threshold: 0.2,
+          rootMargin: "-15px"
+
+        }
+      )
+
+      contentToShow.forEach(content => {
+        observer.observe(content)
+      })
+    }, [])
+
   return (
     <div id="section-1">
       <div className="w-full bg-gray-400 relative mt-20 pb-30" >
 
         <div className="relative z-0 ">
-          <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35">
+          <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35 to-show animate-on-scroll">
             <h1 className="text-3xl text-center rounded-r-lg py-2 md:pl-30 md:pr-4 px-4 text-white font-light tracking-wider lg:drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]" >Thérapie EMDR</h1>
             <hr className="w-25 text-gray-50 md:ml-33 ml-4"/>
           </div>
 
           <Image
               src={`/images/IMG_6349.jpg`}
-              alt="Image d'étude"
+              alt="Image de paysage marin"
               width="3024"
               height="4032"
               preload="true"
@@ -21,7 +44,7 @@ export default function Emdr() {
             />
         </div>
 
-        <div className="pt-15 w-4/5 mx-auto flex space-x-10">
+        <div className="pt-15 w-4/5 mx-auto flex space-x-10 to-show animate-on-scroll">
           <div className="w-2/3">
             <p className="text-justify text-white font-light text-lg">
               La thérapie EMDR a pour but de traiter les troubles de stress post traumatique.
@@ -66,13 +89,13 @@ export default function Emdr() {
       <div className="relative w-full h-500 sm:h-470 lg:h-350 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
 
 
-        <div className="w-4/5 mx-auto mb-15">
+        <div className="w-4/5 mx-auto mb-15 to-show animate-on-scroll">
           <h1 className="text-2xl text-end rounded-tl-lg pt-3 text-gray-500 font-light tracking-wider" >Comment se passe un traitement EMDR?</h1>
           <hr className="w-25 text-gray-500 mr-0 ml-auto"/>
         </div>
 
         <div className="flex flex-wrap w-4/5 mx-auto place-content-around">
-          <div className="lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+          <div className="lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Préparation
             </h2>
@@ -84,7 +107,7 @@ export default function Emdr() {
             </p>
           </div>
 
-          <div className="md:mt-40 mt-15 lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+          <div className="md:mt-40 mt-15 lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Séances de traitement
             </h2>
@@ -97,7 +120,7 @@ export default function Emdr() {
             </p>
           </div>
 
-          <div className="lg:mt-80 mt-15 mb-10 lg:w-1/3 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start">
+          <div className="lg:mt-80 mt-15 mb-10 lg:w-1/3 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Que se passe-t-il ?
             </h2>

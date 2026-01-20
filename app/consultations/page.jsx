@@ -1,19 +1,43 @@
+'use client'
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Consultations() {
+  useEffect(() => {
+        const contentToShow = document.querySelectorAll(".to-show")
+        const observer = new IntersectionObserver(
+          entries => {
+            entries.forEach(entry => {
+              entry.target.classList.toggle("show", entry.isIntersecting)
+              if (entry.isIntersecting) observer.unobserve(entry.target)
+            })
+          },
+          {
+            threshold: 0.2,
+            rootMargin: "-15px"
+
+          }
+        )
+
+        contentToShow.forEach(content => {
+          observer.observe(content)
+        })
+      }, [])
+
   return (
-    <div id="section-1" className="p-0 m-0">
-      <div className="relative bg-gray-400 mt-20">
-      <div className="w-fit absolute z-40 top-10 left-5 sm:top-12 sm:left-15 lg:left-35">
+    <div id="section-1" className="p-0 m-0 ">
+      <div className="bg-gray-400">
+      <div className="relative mt-20 to-show animate-on-scroll">
+      <div className="w-fit absolute z-40 top-10 left-5 sm:top-12 sm:left-15 lg:left-35 to-show animate-on-scroll">
         <h1 className="text-3xl text-center rounded-r-lg py-2 md:pl-30 md:pr-4 px-4 text-white font-light tracking-wider">
           Consultations
         </h1>
         <hr className="w-25 text-white md:ml-30 ml-4" />
       </div>
-      <div className="absolute background-bureau top-70 md:top-60 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 border border-gray-300"></div>
-      <div className="absolute background-bureau-2 top-200 right-0 md:top-142 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 border border-gray-200"></div>
-      <div className="pt-35 relative">
-        <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90  text-lg">
+      <div className="absolute background-bureau top-70 md:top-60 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 border border-gray-300 to-show animate-on-scroll"></div>
+      <div className="absolute background-bureau-2 top-200 right-0 md:top-142 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 border border-gray-200 to-show animate-on-scroll"></div>
+      <div className="pt-35 relative to-show animate-on-scroll">
+        <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90  text-lg to-show">
           <h2 className="rounded-l border px-3 py-1 text-slate-100">Informations pratiques</h2>
           <a href="#pour-qui">
             <h2 className="rounded-r border px-3 py-1 text-gray-300">Pour qui </h2>
@@ -107,8 +131,10 @@ export default function Consultations() {
           </div>
         </div>
         </div>
+        </div>
 
       <div className="pt-20 bg-emerald-200/50 h-180 -mb-70">
+      <div className="to-show animate-on-scroll">
         <div id="pour-qui" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90  text-lg">
           <a href="#infos-pratiques">
             <h2 className="rounded-l border px-3 py-1 text-slate-300">Informations pratiques</h2>
@@ -129,6 +155,7 @@ export default function Consultations() {
             <p>Selon vos besoins nous pourrons adapter le type de thérapie.
               Que vous veniez pour des problèmes du quotidien, des phobies, traumas, ou addictions, vous êtes bienvenu.e</p>
           </div>
+        </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 'use client';
 import Carousel from "./_components/carousel";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +17,28 @@ export default function Home() {
   ];
 
   const [activeItemIndex, setActiveItemIndex] = useState(0);
+
+  useEffect(() => {
+    const contentToShow = document.querySelectorAll(".to-show")
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("show", entry.isIntersecting)
+          if (entry.isIntersecting) observer.unobserve(entry.target)
+        })
+      },
+      {
+        threshold: 0.2,
+        rootMargin: "-15px"
+
+      }
+    )
+
+    contentToShow.forEach(content => {
+      observer.observe(content)
+    })
+  }, [])
+
   return (
     <div className="mt-0 w-full">
       <div id="section-1" className="w-full h-screen relative">
@@ -29,17 +51,17 @@ export default function Home() {
       </div> */}
 
     <div className="bg-gray-400 w-full px-10 py-20">
-      <div className="w-4/5 mx-auto">
-        <p className="text-white text-2xl font-light">Quelque chose vous bloque où ne passe pas?</p>
-        <hr className="w-1/7 mt-5 text-gray-100" />
+      <div className="w-4/5 mx-auto to-show animate-on-scroll">
+        <p className=" text-white text-2xl font-light">Quelque chose vous bloque où ne passe pas?</p>
+        <hr className=" w-1/7 mt-5 text-gray-100" />
         <div className="flex flex-wrap mt-10 space-x-4">
           <div className="w-1/2">
-            <p className="text-white text-xl font-light mt-10 w-4/5">
+            <p className=" text-white text-xl font-light mt-10 w-4/5">
               Besoin de faire une pause, <br></br>
               De prendre du temps pour vous.
             </p>
 
-            <p className="text-white text-xl font-light w-4/5 pt-10">
+            <p className=" text-white text-xl font-light w-4/5 pt-10">
               Je vous propose de nous rencontrer afin de définir ensemble ce qui peut être amélioré et pourquoi pas un nouvel horizon.
             </p>
           </div>
@@ -55,7 +77,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="flex w-4/5 mx-auto my-20 space-x-10 items-center">
+    <div className="flex w-4/5 mx-auto my-20 space-x-10 items-center to-show animate-on-scroll">
       <Image
         src={`/images/IMG_3081.jpg`}
         alt="Image du cabinet"
@@ -87,7 +109,7 @@ export default function Home() {
     </div>
 
     <div className="w-full bg-gray-400 py-20">
-      <div className="flex w-4/5 mx-auto space-x-10 items-center">
+      <div className="flex w-4/5 mx-auto space-x-10 items-center to-show animate-on-scroll">
         <div className="w-2/3">
           <p className="text-white text-xl font-light line-clamp-3 text-justify">
             Les consultations se déroulent dans mon cabinet situé à Baillargues. Les thérapies que je propose s'adressent aux adolescents et aux adultes. Les personnes souffrant
@@ -112,8 +134,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="relative w-full background2 md:bg-fixed bg-size-[100%_auto] bg-center bg-no-repeat">
-      <div className="w-16/25 mx-auto space-x-10 py-20">
+    <div className="relative w-full background2 md:bg-fixed bg-size-[100%_auto] bg-center bg-no-repeat h-150 -mb-75">
+      <div className="w-16/25 mx-auto space-x-10 py-20 to-show animate-on-scroll">
         <h2 className="text-2xl text-gray-500">Thérapie EMDR</h2>
         <p className='text-xl text-gray-500 mt-5 mr-0 ml-auto line-clamp-3 '>La thérapie EMDR (pour <span className="font-normal italic">Eye movement desensitization and reprocessing</span>)
         aide à traiter les séquelles psychologiques liées à des évènements de vie perturbant. Elle est aussi indiquée
