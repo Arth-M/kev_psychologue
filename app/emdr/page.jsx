@@ -57,17 +57,17 @@ export default function Emdr() {
 
 
             <p className="font-light text-lg tracking-wide text-white mt-10">
+              COMMENT CELA SE MANIFESTE ?
+            </p>
+            <p className="text-justify text-white font-light text-lg mt-1">
               <Image
                 src={`/images/IMG_6091.jpg`}
                 alt="Image de vitre glacée"
                 width="3024"
                 height="4032"
                 preload="true"
-                className="object-cover object-[0%_40%] lg:w-1/3 md:w-1/2 w-1/2 float-right ml-10 z-10"
+                className="object-cover object-[0%_40%] lg:w-1/3 md:w-2/5 sm:w-2/5 w-1/2 float-right ml-10 z-10"
               />
-              COMMENT CELA SE MANIFESTE ?
-            </p>
-            <p className="text-justify text-white font-light text-lg mt-1">
               Des images, des pensées, des cauchemars qui s’imposent au patient de manière répétitive, involontaire et douloureuse.
             </p>
             <p className="text-justify text-white font-light text-lg mt-1">
@@ -97,7 +97,7 @@ export default function Emdr() {
         </div> */}
 
 
-      <div className="relative w-full h-500 sm:h-470 lg:h-350 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
+      <div className="relative w-full h-570 sm:h-420 md:h-470 lg:h-370 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
 
 
         <div className="w-4/5 mx-auto mb-15 to-show animate-on-scroll">
@@ -105,8 +105,8 @@ export default function Emdr() {
           <hr className="w-25 text-gray-500 mr-0 ml-auto"/>
         </div>
 
-        <div className="flex flex-wrap w-4/5 mx-auto place-content-around">
-          <div className="lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
+        <div className="flex flex-wrap px-7 md:px-0 md:w-4/5 mx-auto place-content-around">
+          <div className="lg:w-1/3 md:w-2/5 sm:w-4/5 w-full rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Préparation
             </h2>
@@ -118,7 +118,7 @@ export default function Emdr() {
             </p>
           </div>
 
-          <div className="md:mt-40 mt-15 lg:w-1/3 md:w-2/5 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
+          <div className="md:mt-40 mt-15 lg:w-1/3 md:w-2/5 sm:w-4/5 w-full rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Séances de traitement
             </h2>
@@ -131,7 +131,7 @@ export default function Emdr() {
             </p>
           </div>
 
-          <div className="lg:mt-80 mt-15 mb-10 lg:w-1/3 w-4/5 rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
+          <div className="lg:mt-80 mt-15 mb-10 lg:w-1/3 sm:w-4/5 w-full rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
             <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Que se passe-t-il ?
             </h2>

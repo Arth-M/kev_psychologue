@@ -81,24 +81,46 @@ export default function Consultations() {
 
           <div className="pl-2 pt-3 grid grid-cols-[minmax(45px,1fr)_minmax(120px,5fr)] items-center justify-center gap-y-1">
             <div></div>
-            <div className="w-fit hover:translate-x-0.5 hover:scale-102 ease-in-out duration-100">
+            <div className="group w-fit hover:translate-x-0.5 hover:scale-102 ease-in-out duration-100">
               <a
                 href="https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues"
                 className="sansation-bold text-cyan-400 text-xl"
                 target="_blank"
               >
                 Doctolib
-                <Image
-                  src={`/images/right-arrow_7.svg`}
-                  alt="fleche vers la droite"
-                  width="30"
-                  height="50"
-                  preload="true"
-                  className="object-center inline"
-                />
+              <svg
+                  id="Layer_1"
+                  className="fill-white h-9 w-15 inline -ml-3 -mr-3 transition-transform duration-1000 ease-out group-hover:translate-x-1"
+                  enableBackground="new 0 0 100 100"
+                  height="512"
+                  viewBox="0 0 100 100"
+                  width="500"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="m86.29 52h-51.69c-1.1 0-2-.9-2-2s.9-2 2-2h51.69c1.1 0 2 .9 2 2s-.9 2-2 2z" />
+                  <path
+                    clipRule="evenodd"
+                    d="m16.45 48c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .89-2 2-2z"
+                    fillRule="evenodd"
+                  />
+                  <circle
+                    clipRule="evenodd"
+                    cx="25.52"
+                    cy="50"
+                    fillRule="evenodd"
+                    r="2"
+                  />
+                  <path d="m73 67.62c-.46 0-.92-.16-1.29-.48-.84-.72-.94-1.98-.23-2.82l12.18-14.32-12.18-14.33c-.72-.84-.61-2.1.23-2.82s2.1-.61 2.82.23l13.28 15.62c.63.75.63 1.84 0 2.59l-13.28 15.63c-.4.47-.96.7-1.53.7z" />
+                </svg>
               </a>
-              <hr className="w-1/2 text-gray-200 -mt-1" />
-            </div>
+              <hr className="w-fit border-t
+              border-white
+                -mt-1.5
+                origin-left
+                ease-in-out
+                group-hover:animate-[hr-fill_0.8s_cubic-bezier(0.4,0,0.2,1)_forwards]
+                group-hover:w-full" />
+                </div>
             <Image
               src={`/images/phone.svg`}
               alt="Image de téléphone"
@@ -128,7 +150,7 @@ export default function Consultations() {
         </div>
         </div>
         </div>
-        <div className="flex justify-end items-center sm:px-25 px-5 pb-20 z-90">
+        <div className="flex justify-end items-center sm:px-15 px-5 pb-20 z-90">
           <div
             id="maps"
             className="hidden md:block md:mt-25 lg:mt-0 shadow-xl scroll-mt-40 z-50"
@@ -174,7 +196,7 @@ export default function Consultations() {
             preload="true"
             className="object-center inline max-h-90 w-fit ml-0 mr-auto"
           />
-          <div className="mt-5">
+          <div className="mt-5 ml-10">
             <p>Je reçois les adolescents et les adultes.</p>
             <p>Selon vos besoins nous pourrons adapter le type de thérapie.
               Que vous veniez pour des problèmes du quotidien, des phobies, traumas, ou addictions, vous êtes bienvenu.e</p>

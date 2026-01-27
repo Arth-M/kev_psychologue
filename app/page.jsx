@@ -20,6 +20,8 @@ export default function Home() {
 
   useEffect(() => {
     const contentToShow = document.querySelectorAll(".to-show");
+    // const image=document.querySelector("#image1")
+    // console.log(image.getBoundingClientRect())
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -29,7 +31,7 @@ export default function Home() {
       },
       {
         threshold: 0.2,
-        rootMargin: "-15px",
+        rootMargin: "-25px",
       },
     );
 
@@ -59,40 +61,59 @@ export default function Home() {
             Quelque chose vous bloque où ne passe pas?
           </p>
           <hr className=" w-1/7 mt-5 text-gray-100" />
-          <div className="flex flex-wrap mt-10 space-x-4">
-            <div className="w-1/2">
-              <p className=" text-white text-xl font-light mt-10 w-4/5">
+          <div className="md:flex md:flex-wrap mt-10">
+            <div className="md:w-1/2">
+              <p className=" text-white text-xl font-light mt-10 md:w-4/5 mb-8 md:mb-0">
                 Besoin de faire une pause, <br></br>
                 De prendre du temps pour vous.
               </p>
 
-              <p className=" text-white text-xl font-light w-4/5 pt-10">
+              <div className="group md:hidden relative inline-block mx-auto sm:w-2/3 w-full">
+              <Image
+                id="image1"
+                src={`/images/IMG_6021.jpg`}
+                alt="Images de paysages"
+                width="4032"
+                height="3024"
+                preload="true"
+                className="z-50 object-cover object-center w-full ml-auto rounded shadow relative group-hover:-rotate-2 group-hover:scale-102"
+              />
+              <div className="absolute inset-0 bg-gray-500/50 -z-10 rounded -rotate-2 scale-102 "></div>
+            </div>
+
+              <p className=" text-white text-xl font-light md:w-4/5 md:pt-10 mt-8 md:mt-0">
                 Je vous propose de nous rencontrer afin de définir ensemble ce
                 qui peut être amélioré et pourquoi pas un nouvel horizon.
               </p>
             </div>
-            <Image
-              src={`/images/IMG_6021.jpg`}
-              alt="Images de paysages"
-              width="4032"
-              height="3024"
-              preload="true"
-              className="object-cover object-center md:w-1/2 -mr-10 ml-auto rounded shadow"
-            />
+            <div className="group hidden md:inline-block -mr-10 ml-auto w-1/2 self-center">
+            <div className="group relative inline-block my-auto">
+              <Image
+                id="image1"
+                src={`/images/IMG_6021.jpg`}
+                alt="Images de paysages"
+                width="4032"
+                height="3024"
+                preload="true"
+                className="z-50 object-cover object-center md:w-full ml-auto rounded shadow relative group-hover:-rotate-2 group-hover:scale-102"
+              />
+              <div className="absolute inset-0 bg-gray-500/50 -z-10 rounded -rotate-2 scale-102 "></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="flex w-4/5 mx-auto my-20 space-x-10 items-center to-show animate-on-scroll">
+      <div className="flex px-7 md:px-0 md:w-4/5 mx-auto my-20 md:space-x-10 space-x-4 items-center to-show animate-on-scroll">
         <Image
           src={`/images/IMG_3081.jpg`}
           alt="Image du cabinet"
           width="4032"
           height="3024"
           preload="true"
-          className="object-cover object-center w-1/3  ml-0 rounded shadow"
+          className="object-cover object-center md:w-1/3 w-2/5  ml-0 rounded shadow"
         />
-        <div className="w-2/3">
+        <div className="md:w-2/3 w-3/5">
           <p className="text-gray-700 text-xl font-light line-clamp-3 text-justify">
             Diplômé de l'université Paul Valéry en 2016, j'ai commencé par
             travailler à la bergerie de Faucon avec des adolescents en
@@ -125,8 +146,8 @@ export default function Home() {
       </div>
 
       <div className="w-full bg-gray-400 py-20">
-        <div className="flex w-4/5 mx-auto space-x-10 items-center to-show animate-on-scroll">
-          <div className="w-2/3">
+        <div className="flex px-7 md:px-0 md:w-4/5 mx-auto space-x-10 items-center to-show animate-on-scroll">
+          <div className="md:w-2/3 w-3/5">
             <p className="text-white text-xl font-light line-clamp-3 text-justify">
               Les consultations se déroulent dans mon cabinet situé à
               Baillargues. Les thérapies que je propose s'adressent aux
@@ -176,13 +197,13 @@ export default function Home() {
             width="4032"
             height="3024"
             preload="true"
-            className="object-cover object-center w-1/3  ml-0 rounded shadow"
+            className="object-cover object-center md:w-1/3 w-2/5  ml-0 rounded shadow"
           />
         </div>
       </div>
 
-      <div className="relative w-full background2 md:bg-fixed bg-size-[100%_auto] bg-center bg-no-repeat h-150 -mb-75">
-        <div className="w-16/25 mx-auto space-x-10 py-20 to-show animate-on-scroll">
+      <div className="relative w-full background2 bg-cover md:bg-fixed md:bg-size-[100%_auto] bg-center bg-no-repeat h-150 -mb-75">
+        <div className="md:w-16/25 px-7 md:px-0 mx-auto space-x-10 py-20 to-show animate-on-scroll">
           <h2 className="text-2xl text-gray-500">Thérapie EMDR</h2>
           <p className="text-xl text-gray-500 mt-5 mr-0 ml-auto line-clamp-3 ">
             La thérapie EMDR (pour{" "}

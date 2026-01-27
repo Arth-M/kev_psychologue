@@ -44,27 +44,29 @@ export default function MonParcours() {
             />
 
         </div>
-      <div className="w-4/5 mx-auto pt-15 pb-10 to-show animate-on-scroll" >
+      <div className="px-7 md:px-0 md:w-4/5 mx-auto pt-15 pb-10 to-show animate-on-scroll" >
         <p className="text-white text-lg font-light">
           J’ai été diplômé à l’université de Lettres Paul VALERY de Montpellier en 2016.
         </p>
         <div className="flex flex-wrap mt-10 space-x-10 items-center w-full">
-          <div className="w-1/3 md:-ml-6">
 
+
+
+
+          <p className="text-white text-lg w-full text-justify font-light">
+            <span className="inline-block float-left w-1/2 mr-7 relative">
             <Image
               src={`/images/etudes.jpg`}
               alt="Image d'étude"
               width="5184"
               height="3456"
               preload="true"
-              className="object-cover object-center w-full "
+              className="object-cover object-center w-full float-left rounded"
             />
-            <p className="text-xs text-end text-gray-600 opacity-60">
-            @Photo de <a href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unseen Studio</a> sur <a href="https://unsplash.com/fr/photos/personne-ecrivant-sur-une-table-en-bois-brun-pres-dune-tasse-en-ceramique-blanche-s9CC2SKySJM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            <p className="absolute text-nowrap text-xs text-end text-gray-800 opacity-60 bottom-0 right-0">
+            Photo de <a href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unseen Studio</a> sur <a href="https://unsplash.com/fr/photos/personne-ecrivant-sur-une-table-en-bois-brun-pres-dune-tasse-en-ceramique-blanche-s9CC2SKySJM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
             </p>
-          </div>
-
-          <p className="text-white text-lg w-3/5 text-justify font-light">
+            </span>
             J’ai suivi le parcours : Phénoménologie clinique du sportif et des problématiques corporelles
             Pour le Master 1, j’ai écris et soutenus le mémoire :
             « Contiens moi, j’ai besoin de liberté »
@@ -97,7 +99,7 @@ export default function MonParcours() {
         <hr className="w-0.5 h-0.5 text-gray-50 ml-[12%]"/>
         </div> */}
 
-        <div className="w-full bg-gray-400 relative -mt-0.5 isolate h-240 -mb-70" >
+        <div className="w-full bg-gray-400 relative -mt-0.5 isolate h-370 sm:h-290 md:h-230 lg:h-190 -mb-70" >
         <div className="w-4/5 mx-auto pt-10 pb-10 to-show animate-on-scroll" >
          {/* <div className="flex mt-6 space-x-10 items-center w-full"> */}
           <div className="text-wrap">
@@ -107,7 +109,7 @@ export default function MonParcours() {
             width="3024"
             height="4032"
             preload="true"
-            className="object-cover object-center w-4/7 md:w-3/7 lg:w-2/7 float-right ml-10"
+            className="object-cover object-center w-1/2 sm:w-4/7 md:w-3/7 lg:w-2/7 float-right ml-10"
           />
           <p className="text-white text-lg mt-2 text-justify font-light ">
             A l’obtention du diplôme, j’ai tout de suite été engagé à la bergerie de Faucon.
