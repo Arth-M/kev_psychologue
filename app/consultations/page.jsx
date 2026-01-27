@@ -35,7 +35,7 @@ export default function Consultations() {
         <hr className="w-25 text-white md:ml-30 ml-4" />
       </div>
       <div className="absolute background-bureau top-70 md:top-65 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
-      <div className="absolute background-bureau-2 top-200 right-0 md:top-147 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
+      <div className="absolute background-bureau-2 top-200 right-0 md:top-150 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
       <div className="pt-35 relative to-show animate-on-scroll">
         <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90 text-lg to-show">
           <h2 className="rounded-l px-3 py-1 text-white">Informations pratiques</h2>
@@ -76,7 +76,7 @@ export default function Consultations() {
           </div>
           <p className="mt-5">Tarif pour une séance : 60€ TTC</p>
           <p className="">Paiement par chèque ou espèces</p>
-          <hr className='text-white w-1/3 mt-5 mr-0 ml-auto '/>
+          <hr className='text-white w-1/3 mt-5 mr-5 ml-auto '/>
           <p className="mt-3">Prendre rendez-vous :</p>
 
           <div className="pl-2 pt-3 grid grid-cols-[minmax(45px,1fr)_minmax(120px,5fr)] items-center justify-center gap-y-1">
