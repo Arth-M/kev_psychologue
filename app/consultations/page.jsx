@@ -34,8 +34,8 @@ export default function Consultations() {
         </h1>
         <hr className="w-25 text-white md:ml-30 ml-4" />
       </div>
-      <div className="absolute background-bureau top-70 md:top-60 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
-      <div className="absolute background-bureau-2 top-200 right-0 md:top-142 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
+      <div className="absolute background-bureau top-70 md:top-65 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
+      <div className="absolute background-bureau-2 top-200 right-0 md:top-147 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
       <div className="pt-35 relative to-show animate-on-scroll">
         <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90 text-lg to-show">
           <h2 className="rounded-l px-3 py-1 text-white">Informations pratiques</h2>
@@ -53,19 +53,22 @@ export default function Consultations() {
           </a>
         </div>
       <div className="relative mb-20 sm:mb-15 sm:px-25 px-5 flex items-center justify-start">
-        <div className="border border-gray-300 min-w-sm px-10 py-5 rounded-2xl bg-white">
+        <div className="min-w-sm px-10 py-5 rounded-2xl text-white">
+          <hr className='text-white w-1/3 -ml-10 '/>
+          <div className="w-fit">
           <p className="mt-5">
             Sur rendez-vous uniquement <br />
           </p>
+          <hr className='text-gray-200/50 w-full'/>
+          </div>
           <div className="grid grid-cols-[minmax(45px,1fr)_minmax(120px,5fr)] items-center mt-5">
-            <Image
-              src={`/images/calendrier.svg`}
-              alt="Image de paysage"
-              width="40"
-              height="40"
-              preload="true"
-              className="object-cover"
-            />
+            <svg viewBox="0 0 64 64"
+            width="512" height="512"
+            className="w-10 h-10 fill-white">
+              <g id="Calendar">
+                <path d="M57,8H52V6a4,4,0,0,0-8,0V8H36V6a4,4,0,0,0-8,0V8H20V6a4,4,0,0,0-8,0V8H7a5,5,0,0,0-5,5V53a5,5,0,0,0,5,5H35a1,1,0,0,0,0-2H7a3.009,3.009,0,0,1-3-3V22H60V39a1,1,0,0,0,2,0V13A5,5,0,0,0,57,8ZM46,6a2,2,0,0,1,4,0v6a2,2,0,0,1-4,0ZM30,6a2,2,0,0,1,4,0v6a2,2,0,0,1-4,0ZM14,6a2,2,0,0,1,4,0v6a2,2,0,0,1-4,0ZM60,20H4V13a3.009,3.009,0,0,1,3-3h5v2a4,4,0,0,0,8,0V10h8v2a4,4,0,0,0,8,0V10h8v2a4,4,0,0,0,8,0V10h5a3.009,3.009,0,0,1,3,3Z"/><path d="M30,29a2,2,0,0,0-2-2H24a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2Zm-6,3V29h4v3Z"/><path d="M18,29a2,2,0,0,0-2-2H12a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2Zm-6,3V29h4v3Z"/><path d="M52,34a2,2,0,0,0,2-2V29a2,2,0,0,0-2-2H48a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2Zm-4-5h4v3H48Z"/><path d="M30,38a2,2,0,0,0-2-2H24a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2Zm-6,3V38h4v3Z"/><path d="M18,38a2,2,0,0,0-2-2H12a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2Zm-6,3V38h4v3Z"/><path d="M28,45H24a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V47A2,2,0,0,0,28,45Zm-4,5V47h4v3Z"/><path d="M36,34h4a2,2,0,0,0,2-2V29a2,2,0,0,0-2-2H36a2,2,0,0,0-2,2v3A2,2,0,0,0,36,34Zm0-5h4v3H36Z"/><path d="M34,41a2,2,0,0,0,2,2,1,1,0,0,0,0-2V38h4a1,1,0,0,0,0-2H36a2,2,0,0,0-2,2Z"/><path d="M16,45H12a2,2,0,0,0-2,2v3a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V47A2,2,0,0,0,16,45Zm-4,5V47h4v3Z"/><path d="M49,36A13,13,0,1,0,62,49,13.015,13.015,0,0,0,49,36Zm0,24A11,11,0,1,1,60,49,11.013,11.013,0,0,1,49,60Z"/><path d="M54.778,44.808,47,52.586,43.465,49.05a1,1,0,0,0-1.414,1.414l4.242,4.243a1,1,0,0,0,1.414,0l8.485-8.485a1,1,0,0,0-1.414-1.414Z"/></g>
+                </svg>
+
             <p className="text-center">
               Mardi - Jeudi - Vendredi <br></br>
               9h - 19h{" "}
@@ -73,9 +76,10 @@ export default function Consultations() {
           </div>
           <p className="mt-5">Tarif pour une séance : 60€ TTC</p>
           <p className="">Paiement par chèque ou espèces</p>
-          <p className="mt-5">Prendre rendez-vous :</p>
+          <hr className='text-white w-1/3 mt-5 mr-0 ml-auto '/>
+          <p className="mt-3">Prendre rendez-vous :</p>
 
-          <div className="pl-2 grid grid-cols-[minmax(45px,1fr)_minmax(120px,5fr)] items-center justify-center">
+          <div className="pl-2 pt-3 grid grid-cols-[minmax(45px,1fr)_minmax(120px,5fr)] items-center justify-center gap-y-1">
             <div></div>
             <div className="w-fit hover:translate-x-0.5 hover:scale-102 ease-in-out duration-100">
               <a
@@ -119,6 +123,8 @@ export default function Consultations() {
               mailKevin@mailkevin.com
             </a>
           </div>
+          <hr className='text-white w-1/3 -ml-10 mt-4'/>
+
         </div>
         </div>
         </div>
