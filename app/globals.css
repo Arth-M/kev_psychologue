@@ -52,6 +52,15 @@
     transform: translateY(10)
   }
 
+  @keyframes hr-fill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
 .sansation-light {
   font-family: "Sansation", sans-serif;
   font-weight: 300;
