@@ -37,10 +37,11 @@ export default function Consultations() {
       <div className="absolute background-bureau top-70 md:top-60 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 border border-gray-300 to-show animate-on-scroll"></div>
       <div className="absolute background-bureau-2 top-200 right-0 md:top-142 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 border border-gray-200 to-show animate-on-scroll"></div>
       <div className="pt-35 relative to-show animate-on-scroll">
-        <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90  text-lg to-show">
-          <h2 className="rounded-l border px-3 py-1 text-slate-100">Informations pratiques</h2>
-          <a href="#pour-qui">
-            <h2 className="rounded-r border px-3 py-1 text-gray-300">Pour qui </h2>
+        <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90 text-lg to-show">
+          <h2 className="rounded-l px-3 py-1 text-slate-100">Informations pratiques</h2>
+          <span className="px-3 py-1 text-gray-300">-</span>
+          <a href="#pour-qui" className="hover:scale-105 hover:animate-pulse">
+            <h2 className="rounded-r px-3 py-1 text-gray-300">Pour qui </h2>
           </a>
         </div>
       <div className="relative mb-20 sm:mb-15 sm:px-25 px-5 flex items-center justify-start">
@@ -137,9 +138,10 @@ export default function Consultations() {
       <div className="to-show animate-on-scroll">
         <div id="pour-qui" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90  text-lg">
           <a href="#infos-pratiques">
-            <h2 className="rounded-l border px-3 py-1 text-slate-300">Informations pratiques</h2>
+            <h2 className="rounded-l px-3 py-1 text-slate-300">Informations pratiques</h2>
           </a>
-          <h2 className="rounded-r border border-slate-400 px-3 py-1 text-slate-500">Pour qui</h2>
+            <span className="px-3 py-1 text-slate-300">-</span>
+          <h2 className="rounded-r px-3 py-1 text-slate-500">Pour qui</h2>
         </div>
         <div className="sm:px-10 md:px-15 px-5 gap-x-10 grid grid-cols-[minmax(90px,3fr)_minmax(120px,4fr)] w-4/5 items-start justify-start mt-15">
           <Image

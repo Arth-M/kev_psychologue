@@ -44,33 +44,44 @@ export default function Emdr() {
             />
         </div>
 
-        <div className="pt-15 w-4/5 mx-auto flex space-x-10 to-show animate-on-scroll">
-          <div className="w-2/3">
+        <div className="pt-15 w-4/5 mx-auto to-show animate-on-scroll">
+
             <p className="text-justify text-white font-light text-lg">
               La thérapie EMDR a pour but de traiter les troubles de stress post traumatique.
               Nous avons tous vécu un où plusieurs évènements de stress intense ou d’effrois, face auxquels nous nous sommes sentie impuissant.
+            </p>
+            <p className="text-justify text-white font-light text-lg mt-1">
               Lorsqu’un traumatisme survient le cerveau n’arrive pas à traiter l’évènement dans tous ses aspects, Il reste fragmenté dans la mémoire et susceptible d’être réactivé par n’importe quel fragment rencontré au quotidien.
               L’évènement est à l’origine des troubles qui s’en suivent.
             </p>
-            <p className="font-light text-lg tracking-wide mt-3 text-white">COMMENT CELA SE MANIFESTE ?</p>
 
+
+            <p className="font-light text-lg tracking-wide text-white mt-10">
+              <Image
+                src={`/images/IMG_6091.jpg`}
+                alt="Image de vitre glacée"
+                width="3024"
+                height="4032"
+                preload="true"
+                className="object-cover object-[0%_40%] lg:w-1/3 md:w-1/2 w-1/2 float-right ml-10 z-10"
+              />
+              COMMENT CELA SE MANIFESTE ?
+            </p>
             <p className="text-justify text-white font-light text-lg mt-1">
               Des images, des pensées, des cauchemars qui s’imposent au patient de manière répétitive, involontaire et douloureuse.
-              Parfois des flashback soudain replonge la personne dans le passé, lui faisant revivre la scène comme si il y’était encore et peut entrainer un état d’angoisse, de stress permanent.
+            </p>
+            <p className="text-justify text-white font-light text-lg mt-1">
+              Parfois des flashback soudains replongent la personne dans le passé, lui faisant revivre la scène comme si il y’était encore et peut entrainer un état d’angoisse, de stress permanent.
+            </p>
+            <p className="text-justify text-white font-light text-lg mt-1">
               Les pensées, les discussions, les personnes, les lieux rappelant l’évènement traumatique peuvent être systématiquement évité. Ce qui restreint considérablement la vie sociale, familiale, professionnel
+            </p>
+            <p className="text-justify text-white font-light text-lg mt-1">
               La tristesse, le manque de goût et  d’élan vital, l’indifférence affective et émotionnelle sont souvent associé.
-              L’état de stress post entraine un état d’hypervigilance, des réactions de sursaut, de l’irritabilité, des difficultés de concentration, des troubles du sommeil…
+              L’état de stress post-traumatique entraine un état d’hypervigilance, des réactions de sursaut, de l’irritabilité, des difficultés de concentration, des troubles du sommeil…
               Tous ces troubles peuvent affecter et altérer sévèrement la qualité de vie au quotidien de la personne et de ses proches.
             </p>
-          </div>
-          <Image
-            src={`/images/IMG_6091.jpg`}
-            alt="Image de vitre glacée"
-            width="3024"
-            height="4032"
-            preload="true"
-            className="object-cover object-[0%_40%] w-1/3 inn z-10"
-          />
+
         </div>
       </div>
 

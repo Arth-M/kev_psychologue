@@ -23,7 +23,7 @@ export default function MonParcours() {
         observer.observe(content)
       })
     }, [])
-    
+
   return (
     <div id="section-1" className="relative">
       <div className="w-full bg-gray-400 mt-20 pb-8" >
@@ -99,15 +99,35 @@ export default function MonParcours() {
 
         <div className="w-full bg-gray-400 relative -mt-0.5 isolate h-240 -mb-70" >
         <div className="w-4/5 mx-auto pt-10 pb-10 to-show animate-on-scroll" >
-         <div className="flex mt-6 space-x-10 items-center w-full">
-          <div className="w-3/5 text-wrap">
+         {/* <div className="flex mt-6 space-x-10 items-center w-full"> */}
+          <div className="text-wrap">
+          <Image
+            src={`/images/IMG_6305.jpg`}
+            alt="Image de paysage"
+            width="3024"
+            height="4032"
+            preload="true"
+            className="object-cover object-center w-4/7 md:w-3/7 lg:w-2/7 float-right ml-10"
+          />
           <p className="text-white text-lg mt-2 text-justify font-light ">
-            A l’obtention du diplôme, j’ai tout de suite était engagé à la bergerie de Faucon.
-            Cette institution était mon lieu de stage en Master 2. Il s’agit d’un lieu de vie pour adolescents en difficultés, suivies par l’aide sociale à l’enfance où la protection judiciaire de la jeunesse. Ce lieu de vie se situe dans les gorges du Verdon et a la spécificité de se trouver en pleine nature et de centrer son travail sur la zoo-pédagogie. Pendant 3 années j’ai partagés le quotidien des adolescents , de l’équipe pluridisciplinaire…et des nombreux animaux présent sur le site.
+            A l’obtention du diplôme, j’ai tout de suite été engagé à la bergerie de Faucon.
+            Cette institution était mon lieu de stage en Master 2.
+          </p>
+
+          <p className="text-white text-lg mt-2 text-justify font-light ">
+            Il s’agit d’un lieu de vie pour adolescents en difficultés, suivies par l’aide sociale à l’enfance où la protection judiciaire de la jeunesse. Ce lieu de vie se situe dans les gorges du Verdon et a la spécificité de se trouver en pleine nature et de centrer son travail sur la zoo-pédagogie.
+          </p>
+
+          <p className="text-white text-lg mt-2 text-justify font-light ">
+            Pendant 3 années j’ai partagés le quotidien des adolescents , de l’équipe pluridisciplinaire…et des nombreux animaux présent sur le site.
           </p>
           <p className="text-white text-lg mt-2 text-justify font-light">
             En 2019 j’ai intégré le service «  Parenthèse » , Institution de l’association ADAGES.
-            J’ai occupé le poste d’intervenant en espace de rencontres. Il s’agissait de médiatiser des droits de visites entre parents et enfants ( de 1 à 17 ans). Ces droits de visites étaient dispensés par le juge aux affaires familiales.
+            J’ai occupé le poste d’intervenant en espace de rencontres.
+          </p>
+
+          <p className="text-white text-lg mt-2 text-justify font-light">
+            Il s’agissait de médiatiser des droits de visites entre parents et enfants ( de 1 à 17 ans). Ces droits de visites étaient dispensés par le juge aux affaires familiales.
             Les familles venaient de tous horizons et rencontrées des problématiques variées
           </p>
           <p className="text-white text-lg mt-2 text-justify font-light">
@@ -115,16 +135,8 @@ export default function MonParcours() {
           </p>
           </div>
 
-          <Image
-            src={`/images/IMG_6305.jpg`}
-            alt="Image de paysage"
-            width="3024"
-            height="4032"
-            preload="true"
-            className="object-cover object-center w-1/3 md:ml-3"
-          />
 
-        </div>
+        {/* </div> */}
       </div>
 
 
