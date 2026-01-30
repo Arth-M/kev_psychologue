@@ -207,7 +207,7 @@ export default function Consultations() {
           />
           <div className="md:mt-5 sm:ml-10 text-emerald-700">
             <Image
-            src={`/images/IMG_2315.jpg`}
+            src={`/images/IMG_2315.JPG`}
             alt="Image d'un caillou taillé"
             width="3024"
             height="3024"

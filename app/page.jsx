@@ -106,7 +106,7 @@ export default function Home() {
 
       <div className="flex px-7 md:px-0 md:w-4/5 mx-auto my-20 md:space-x-10 space-x-4 items-center to-show animate-on-scroll">
         <Image
-          src={`/images/IMG_3081.jpg`}
+          src={`/images/IMG_3081.JPG`}
           alt="Image du cabinet"
           width="4032"
           height="3024"
@@ -192,7 +192,7 @@ export default function Home() {
             </div>
           </div>
           <Image
-            src={`/images/IMG_2315.jpg`}
+            src={`/images/IMG_2315.JPG`}
             alt="Image d'un caillou taillé"
             width="4032"
             height="3024"
