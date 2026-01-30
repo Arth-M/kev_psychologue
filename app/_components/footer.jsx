@@ -44,10 +44,10 @@ export default function Footer() {
             <a href="tel:+336XXXXXXX" className="">
               <Image
                 src="/images/phone.svg"
-                alt="Images de paysages"
-                width="50"
-                height="50"
-                preload="false"
+                alt="Images de téléphone"
+                width={50}
+                height={50}
+                preload={false}
                 className="h-5 w-5 inline mb-1 mr-2"
               />
               <p className="inline text-center">06.XX.XX.XX.XX</p>
@@ -57,10 +57,10 @@ export default function Footer() {
             <a href="/consultations#maps">
               <Image
                 src="/images/pin.svg"
-                alt="Images de paysages"
-                width="50"
-                height="50"
-                preload="false"
+                alt="Images de localisation"
+                width={50}
+                height={50}
+                preload={false}
                 className="h-5 w-5 inline mb-1 mr-2"
               />
               <p className="inline text-nowrap">

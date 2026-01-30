@@ -71,11 +71,11 @@ export default function Home() {
               <div className="group md:hidden relative inline-block mx-auto sm:w-2/3 w-full">
               <Image
                 id="image1"
-                src={`/images/IMG_6021.jpg`}
+                src="/images/IMG_6021.jpg"
                 alt="Images de paysages"
-                width="4032"
-                height="3024"
-                preload="true"
+                width={4032}
+                height={3024}
+                preload={true}
                 className="z-50 object-cover object-center w-full ml-auto rounded shadow relative group-hover:-rotate-2 group-hover:scale-102"
               />
               <div className="absolute inset-0 bg-gray-500/50 -z-10 rounded -rotate-2 scale-102 "></div>
@@ -83,18 +83,18 @@ export default function Home() {
 
               <p className=" text-white text-xl font-light md:w-4/5 md:pt-10 mt-8 md:mt-0">
                 Je vous propose de nous rencontrer afin de définir ensemble ce
-                qui peut être amélioré et pourquoi pas un nouvel horizon.
+                qui peut être amélioré et pourquoi pas établir un nouvel horizon.
               </p>
             </div>
             <div className="group hidden md:inline-block -mr-10 ml-auto w-1/2 self-center">
             <div className="group relative inline-block my-auto">
               <Image
                 id="image1"
-                src={`/images/IMG_6021.jpg`}
+                src="/images/IMG_6021.jpg"
                 alt="Images de paysages"
-                width="4032"
-                height="3024"
-                preload="true"
+                width={4032}
+                height={3024}
+                preload={true}
                 className="z-50 object-cover object-center md:w-full ml-auto rounded shadow relative group-hover:-rotate-2 group-hover:scale-102"
               />
               <div className="absolute inset-0 bg-gray-500/50 -z-10 rounded -rotate-2 scale-102 "></div>
@@ -106,11 +106,11 @@ export default function Home() {
 
       <div className="flex px-7 md:px-0 md:w-4/5 mx-auto my-20 md:space-x-10 space-x-4 items-center to-show animate-on-scroll">
         <Image
-          src={`/images/IMG_3081.JPG`}
+          src="/images/IMG_3081.JPG"
           alt="Image du cabinet"
-          width="4032"
-          height="3024"
-          preload="true"
+          width={4032}
+          height={3024}
+          preload={true}
           className="object-cover object-center md:w-1/3 w-2/5  ml-0 rounded shadow"
         />
         <div className="md:w-2/3 w-3/5">
@@ -125,11 +125,11 @@ export default function Home() {
             <a href="/mon-parcours" className="text-gray-600 tracking-wide">
               En savoir plus
               <Image
-                src={`/images/right-arrow_7.svg`}
+                src="/images/right-arrow_7.svg"
                 alt="fleche vers la droite"
-                width="30"
-                height="50"
-                preload="true"
+                width={30}
+                height={50}
+                preload={true}
                 className="object-center inline transition-transform duration-1000 ease-out group-hover:translate-x-1"
               />
             </a>
@@ -192,11 +192,11 @@ export default function Home() {
             </div>
           </div>
           <Image
-            src={`/images/IMG_2315.JPG`}
+            src="/images/IMG_2315.JPG"
             alt="Image d'un caillou taillé"
-            width="4032"
-            height="3024"
-            preload="true"
+            width={4032}
+            height={3024}
+            preload={true}
             className="object-cover object-center md:w-1/3 w-2/5  ml-0 rounded shadow"
           />
         </div>
@@ -219,11 +219,11 @@ export default function Home() {
             <a href="/emdr" className="text-gray-600 tracking-wide">
               En savoir plus
               <Image
-                src={`/images/right-arrow_7.svg`}
+                src="/images/right-arrow_7.svg"
                 alt="fleche vers la droite"
-                width="30"
-                height="50"
-                preload="true"
+                width={30}
+                height={50}
+                preload={true}
                 className="object-center inline transition-transform duration-1000 ease-out group-hover:translate-x-1"
               />
             </a>

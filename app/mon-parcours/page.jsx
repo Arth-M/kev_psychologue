@@ -35,11 +35,11 @@ export default function MonParcours() {
           </div>
 
           <Image
-              src={`/images/IMG_2465.jpg`}
+              src="/images/IMG_2465.jpg"
               alt="Image de paysage"
-              width="3024"
-              height="4032"
-              preload="true"
+              width={3024}
+              height={4032}
+              preload={true}
               className="object-cover object-[0%_45%] h-40 z-10"
             />
 
@@ -56,11 +56,11 @@ export default function MonParcours() {
           <p className="text-white text-lg w-full text-justify font-light">
             <span className="inline-block float-left w-1/2 mr-7 relative">
             <Image
-              src={`/images/etudes.jpg`}
+              src="/images/etudes.jpg"
               alt="Image d'étude"
-              width="5184"
-              height="3456"
-              preload="true"
+              width={5184}
+              height={3456}
+              preload={true}
               className="object-cover object-center w-full float-left rounded"
             />
             <a className="absolute text-nowrap text-xs text-end text-gray-800 opacity-60 bottom-0 right-0" href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo de Unseen Studio sur Unsplash</a>
@@ -103,11 +103,11 @@ export default function MonParcours() {
          {/* <div className="flex mt-6 space-x-10 items-center w-full"> */}
           <div className="text-wrap">
           <Image
-            src={`/images/IMG_6305.jpg`}
+            src="/images/IMG_6305.jpg"
             alt="Image de paysage"
-            width="3024"
-            height="4032"
-            preload="true"
+            width={3024}
+            height={4032}
+            preload={true}
             className="object-cover object-center w-1/2 sm:w-4/7 md:w-3/7 lg:w-2/7 float-right ml-10"
           />
           <p className="text-white text-lg mt-2 text-justify font-light ">

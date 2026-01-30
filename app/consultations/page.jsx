@@ -198,22 +198,22 @@ export default function Consultations() {
         </div>
         <div className="sm:px-10 md:px-15 px-5 md:gap-x-10 mx-auto sm:grid grid-cols-[minmax(90px,3fr)_minmax(120px,4fr)] md:w-4/5 items-start justify-start mt-15">
           <Image
-            src={`/images/IMG_2315.jpg`}
+            src="/images/IMG_2315.jpg"
             alt="Image d'un caillou taillé"
-            width="3024"
-            height="3024"
-            preload="true"
+            width={3024}
+            height={3024}
+            preload={true}
             className="object-center max-h-90 w-fit ml-0 mr-auto hidden sm:inline"
           />
           <div className="md:mt-5 sm:ml-10 text-emerald-700">
-            <Image
-            src={`/images/IMG_2315.JPG`}
-            alt="Image d'un caillou taillé"
-            width="3024"
-            height="3024"
-            preload="true"
-            className="object-center max-h-90 mr-5 float-left w-1/2 sm:hidden"
-          />
+           <Image
+              src="/images/IMG_2315.JPG"
+              alt="Image d'un caillou taillé"
+              width={3024}
+              height={3024}
+              preaload={true}
+              className="object-center max-h-90 mr-5 float-left w-1/2 sm:hidden"
+            />
             <p>Je reçois les adolescents et les adultes.</p>
             <p>Selon vos besoins nous pourrons adapter le type de thérapie.
               Que vous veniez pour des problèmes du quotidien, des phobies, traumas, ou addictions, vous êtes bienvenu.e</p>

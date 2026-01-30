@@ -35,11 +35,11 @@ export default function Emdr() {
           </div>
 
           <Image
-              src={`/images/IMG_6349.jpg`}
+              src="/images/IMG_6349.jpg"
               alt="Image de paysage marin"
-              width="3024"
-              height="4032"
-              preload="true"
+              width={3024}
+              height={4032}
+              preload={true}
               className="object-cover object-[0%_42%] h-40 z-10"
             />
         </div>
@@ -61,11 +61,11 @@ export default function Emdr() {
             </p>
             <p className="text-justify text-white font-light text-lg mt-1">
               <Image
-                src={`/images/IMG_6091.jpg`}
+                src="/images/IMG_6091.jpg"
                 alt="Image de vitre glacée"
-                width="3024"
-                height="4032"
-                preload="true"
+                width={3024}
+                height={4032}
+                preload={true}
                 className="object-cover object-[0%_40%] lg:w-1/3 md:w-2/5 sm:w-2/5 w-1/2 float-right ml-10 z-10"
               />
               Des images, des pensées, des cauchemars qui s’imposent au patient de manière répétitive, involontaire et douloureuse.
