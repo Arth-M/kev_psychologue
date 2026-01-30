@@ -23,6 +23,7 @@ export const metadata = {
     description:
       "Psychologue diplômé basé à Baillargues. Il pratique des thérapies sur les traumas, les phobies et les addictions notamment avec l'emdr.",
     siteName: "Kevin Nicolas - Psychologue",
+    url: "https://kev-psychologue.vercel.app/",
     // url: "https://psychologue-baillargues.fr",
     // images: [
     //   {
@@ -36,6 +37,7 @@ export const metadata = {
 
   // Lien canonique
   alternates: {
+    canonical: "https://kev-psychologue.vercel.app/", // à remplacer
     // canonical: "https://psychologue-baillargues.fr", // à remplacer
   },
 };
@@ -46,6 +48,7 @@ export const jsonLdData = {
   additionalType: "https://schema.org/Psychologist",
   name: "Kévin Nicolas",
   // image: "https://psychologue-baillargues.fr/images/kevin_nicolas.webp",
+  image: "https://kev-psychologue.vercel.app/public/images/phoenix.svg",
   description:
     "Kevin Nicolas est un Psychologue diplômé installé à Baillargues. Il travaille sur les traumas, les phobies et les addictions notamment avec l'EMDR.",
   address: {
@@ -64,6 +67,7 @@ export const jsonLdData = {
   // telephone: '+33-6-15-43-51-99', // à remplacer
   // email: 'c.castronovo.34@gmail.com', // à remplacer
   // url: "https://psychologue-baillargues.fr", // à remplacer
+  url: "https://kev-psychologue.vercel.app/", // à remplacer
   sameAs: [
     "https://www.doctolib.fr/psychologue/baillargues/kevin-nicolas-baillargues",
     "https://maps.app.goo.gl/C4F5RqbkyCzRkHzYA",
