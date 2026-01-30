@@ -27,7 +27,7 @@ export default function Carousel({
   }, [activeItemIndex, carouselData.length, setActiveItemIndex]);
 
   return (
-    <div className="relative w-full bg-transparent h-full">
+    <div id='hero' className="relative w-full bg-transparent h-full">
       <div className="z-10 w-full h-full flex flex-col items-center justify-center mx-auto absolute mt-10 md:mt-0">
         <h1 className="pb-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-5xl tracking-wide text-center text-mantis-50 sansation-regular">
           Kevin Nicolas

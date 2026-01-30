@@ -25,7 +25,7 @@ export default function MonParcours() {
     }, [])
 
   return (
-    <div id="section-1" className="relative">
+    <div className="relative">
       <div className="w-full bg-gray-400 mt-20 pb-8" >
 
         <div className="relative z-0 ">
@@ -64,6 +64,7 @@ export default function MonParcours() {
               className="object-cover object-center w-full float-left rounded"
             />
             <a className="absolute text-nowrap text-xs text-end text-gray-800 opacity-60 bottom-0 right-0" href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo de Unseen Studio sur Unsplash</a>
+
             </span>
             J’ai suivi le parcours : Phénoménologie clinique du sportif et des problématiques corporelles
             Pour le Master 1, j’ai écris et soutenus le mémoire :

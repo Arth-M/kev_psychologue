@@ -25,10 +25,10 @@ export default function Emdr() {
     }, [])
 
   return (
-    <div id="section-1">
+    <div>
       <div className="w-full bg-gray-400 relative mt-20 pb-30" >
 
-        <div className="relative z-0 ">
+        <div className="relative z-0">
           <div className="w-fit absolute z-40 top-25 left-5 sm:top-23 sm:left-15 lg:left-35 to-show animate-on-scroll">
             <h1 className="text-3xl text-center rounded-r-lg py-2 md:pl-30 md:pr-4 px-4 text-white font-light tracking-wider lg:drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]" >Thérapie EMDR</h1>
             <hr className="w-25 text-gray-50 md:ml-33 ml-4"/>
@@ -107,7 +107,7 @@ export default function Emdr() {
 
         <div className="flex flex-wrap px-7 md:px-0 md:w-4/5 mx-auto place-content-around">
           <div className="lg:w-1/3 md:w-2/5 sm:w-4/5 w-full rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
-            <h2 className="text-justify text-gray-500 font-light text-xl mt-1"> 
+            <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
             Préparation
             </h2>
             <p className="text-justify text-gray-500 font-light text-lg mt-1">

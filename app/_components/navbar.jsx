@@ -35,7 +35,7 @@ export default function Navbar() {
       { threshold: 0.8 } // tune this to decide WHEN to activate the navbar
     );
 
-    if (firstSection) observer.observe(firstSection);
+    firstSection ? observer.observe(firstSection) : setIsVisible(true);
 
     return () => observer.disconnect();
   }, []);
