@@ -14,6 +14,6 @@
     "format": "npx prettier . --write"
   },
   "devDependencies": {
-    "baseline-browser-mapping": "^2.8.32"
+    "baseline-browser-mapping": "^2.9.19"
   }
 }
