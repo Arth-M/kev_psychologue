@@ -63,9 +63,7 @@ export default function MonParcours() {
               preload="true"
               className="object-cover object-center w-full float-left rounded"
             />
-            <p className="absolute text-nowrap text-xs text-end text-gray-800 opacity-60 bottom-0 right-0">
-            Photo de <a href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unseen Studio</a> sur <a href="https://unsplash.com/fr/photos/personne-ecrivant-sur-une-table-en-bois-brun-pres-dune-tasse-en-ceramique-blanche-s9CC2SKySJM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </p>
+            <a className="absolute text-nowrap text-xs text-end text-gray-800 opacity-60 bottom-0 right-0" href="https://unsplash.com/fr/@uns__nstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo de Unseen Studio sur Unsplash</a>
             </span>
             J’ai suivi le parcours : Phénoménologie clinique du sportif et des problématiques corporelles
             Pour le Master 1, j’ai écris et soutenus le mémoire :

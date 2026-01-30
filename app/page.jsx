@@ -121,7 +121,7 @@ export default function Home() {
             l'association Adages lors des droits de visites entre parents et
             enfants de tout âge.
           </p>
-          <div className="group pt-2 w-fit mr-0 ml-auto hover:translate-x-0.5">
+          <div className="group pt-2 w-fit h-auto mr-0 ml-auto hover:translate-x-0.5">
             <a href="/mon-parcours" className="text-gray-600 tracking-wide">
               En savoir plus
               <Image
@@ -215,7 +215,7 @@ export default function Home() {
             des addictions ou encore des traumas. Des entretiens préliminaires
             nous permettront d'évaluer si l'EMDR est indiquée dans votre cas.
           </p>
-          <div className="group pt-2 w-fit mr-0 ml-auto hover:translate-x-0.5">
+          <div className="group pt-2 w-fit h-auto mr-0 ml-auto hover:translate-x-0.5">
             <a href="/mon-parcours" className="text-gray-600 tracking-wide">
               En savoir plus
               <Image

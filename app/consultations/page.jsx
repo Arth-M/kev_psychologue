@@ -34,26 +34,32 @@ export default function Consultations() {
         </h1>
         <hr className="w-25 text-white md:ml-30 ml-4" />
       </div>
-      <div className="absolute background-bureau top-70 md:top-65 lg:right-5 md:right-0 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
-      <div className="absolute background-bureau-2 top-200 right-0 md:top-150 md:left-0 lg:left-5 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
+      <div className="absolute background-bureau top-200 md:top-150 lg:left-5 md:left-0 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
+      <div className="absolute background-bureau-2 top-70 right-0 md:top-65 md:right-0 lg:right-5 md:w-1/2 w-4/5 h-90 to-show animate-on-scroll"></div>
       <div className="pt-35 relative to-show animate-on-scroll">
-        <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90 text-lg to-show">
-          <h2 className="rounded-l px-3 py-1 text-white">Informations pratiques</h2>
-          {/* <span className="px-3 py-1 text-gray-300">-</span> */}
+        <div id="infos-pratiques" className="scroll-mt-30 flex flex-nowrap w-full pl-5 md:pl-25 mb-5 z-90 text-lg to-show">
+          <h2 className="relative rounded pl-5 pr-2 py-0.5 text-gray-400 bg-gray-200
+          before:content-[''] before:absolute before:left-1.5 before:top-1/2
+          before:-translate-y-1/2 before:w-2 before:h-2
+          before:rounded-full before:bg-gray-400">Informations pratiques</h2>
+          {/* <div className="w-0.5 h-7 bg-gray-500 mt-1"></div> */}
           <a href="#pour-qui" className="group hover:scale-104">
-            <h2 className="rounded-r px-3 py-1 text-gray-300 group-hover:text-gray-200">Pour qui </h2>
+            <h2 className="rounded-r px-3 py-1 text-gray-300 group-hover:text-gray-200 ml-5">Pour qui ↓
+            </h2>
             <hr
               className="w-fit border-t
               border-gray-200
                 -mt-1.5
+                ml-9
                 mx-auto
                 group-hover:animate-[hr-fill_0.8s_cubic-bezier(0.4,0,0.2,1)_forwards]
-                group-hover:w-[75%]"
+                group-hover:w-[58%]"
             />
           </a>
         </div>
-      <div className="relative mb-20 sm:mb-15 sm:px-25 px-5 flex items-center justify-start">
-        <div className="min-w-sm px-10 py-5 rounded-2xl text-white">
+
+      <div className="relative mb-20 sm:mb-15 md:px-10 flex items-center justify-start">
+        <div className="w-[344px] px-5 md:min-w-sm md:px-10 md:w-auto py-5 rounded-r-2xl pl-15 md:text-white md:bg-transparent bg-gray-100/70 text-gray-600">
           <hr className='text-white w-1/3 -ml-10 '/>
           <div className="w-fit">
           <p className="mt-5">
@@ -153,7 +159,7 @@ export default function Consultations() {
         <div className="flex justify-end items-center sm:px-15 px-5 pb-20 z-90">
           <div
             id="maps"
-            className="hidden md:block md:mt-25 lg:mt-0 shadow-xl scroll-mt-40 z-50"
+            className="block md:mt-0 shadow-xl scroll-mt-40 z-50"
           >
             <iframe
               className="mx-auto rounded-lg"
@@ -170,24 +176,28 @@ export default function Consultations() {
         </div>
         </div>
 
-      <div className="pt-20 bg-emerald-200/50 h-180 -mb-70">
+      <div className="pt-40 md:pt-20 bg-emerald-300 h-180 -mb-70">
       <div className="to-show animate-on-scroll">
-        <div id="pour-qui" className="scroll-mt-30 flex flex-nowrap w-full pl-25 mb-5 z-90  text-lg">
+        <div id="pour-qui" className="scroll-mt-30 flex flex-nowrap w-full pl-5 md:pl-25 mb-5 z-90  text-lg">
+          <h2 className="relative rounded pl-5 pr-2 py-0.5 text-emerald-500 bg-emerald-100
+          before:content-[''] before:absolute before:left-1.5 before:top-1/2
+          before:-translate-y-1/2 before:w-2 before:h-2
+          before:rounded-full before:bg-emerald-500
+          ">Pour qui</h2>
           <a href="#infos-pratiques" className="group hover:scale-104">
-            <h2 className="rounded-l px-3 py-1 text-slate-300 hover:text-slate-400/90">Informations pratiques</h2>
+            <h2 className="rounded-l px-3 py-1 text-emerald-500 hover:text-emerald-600 ml-5">↑ Informations pratiques</h2>
             <hr
               className="w-fit border-t
-              border-slate-400/90
+              border-emerald-500/80
                 -mt-1.5
                 mx-auto
+                ml-10
                 group-hover:animate-[hr-fill_0.8s_cubic-bezier(0.4,0,0.2,1)_forwards]
-                group-hover:w-[82%]"
+                group-hover:w-[78%]"
             />
           </a>
-            {/* <span className="px-3 py-1 text-slate-300">-</span> */}
-          <h2 className="rounded-r px-3 py-1 text-slate-500">Pour qui</h2>
         </div>
-        <div className="sm:px-10 md:px-15 px-5 gap-x-10 grid grid-cols-[minmax(90px,3fr)_minmax(120px,4fr)] w-4/5 items-start justify-start mt-15">
+        <div className="sm:px-10 md:px-15 px-5 md:gap-x-10 mx-auto grid grid-cols-[minmax(90px,3fr)_minmax(120px,4fr)] md:w-4/5 items-start justify-start mt-15">
           <Image
             src={`/images/IMG_2315.jpg`}
             alt="Image d'un caillou taillé"
@@ -196,7 +206,7 @@ export default function Consultations() {
             preload="true"
             className="object-center inline max-h-90 w-fit ml-0 mr-auto"
           />
-          <div className="mt-5 ml-10">
+          <div className="md:mt-5 ml-10 text-emerald-700">
             <p>Je reçois les adolescents et les adultes.</p>
             <p>Selon vos besoins nous pourrons adapter le type de thérapie.
               Que vous veniez pour des problèmes du quotidien, des phobies, traumas, ou addictions, vous êtes bienvenu.e</p>

@@ -107,7 +107,7 @@ export default function Emdr() {
 
         <div className="flex flex-wrap px-7 md:px-0 md:w-4/5 mx-auto place-content-around">
           <div className="lg:w-1/3 md:w-2/5 sm:w-4/5 w-full rounded-4xl border-l-4 border-gray-50 px-5 py-3 self-start to-show animate-on-scroll">
-            <h2 className="text-justify text-gray-500 font-light text-xl mt-1">
+            <h2 className="text-justify text-gray-500 font-light text-xl mt-1"> 
             Préparation
             </h2>
             <p className="text-justify text-gray-500 font-light text-lg mt-1">
