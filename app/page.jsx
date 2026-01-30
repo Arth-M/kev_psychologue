@@ -206,7 +206,7 @@ export default function Home() {
         <div className="md:w-16/25 px-7 md:px-0 mx-auto space-x-10 py-20 to-show animate-on-scroll">
           <h2 className="text-2xl text-gray-500">Thérapie EMDR</h2>
           <p className="text-xl text-gray-500 mt-5 mr-0 ml-auto line-clamp-3 ">
-            La thérapie EMDR (pour{" "}
+            La thérapie EMDR (pour
             <span className="font-normal italic">
               Eye movement desensitization and reprocessing
             </span>
@@ -216,7 +216,7 @@ export default function Home() {
             nous permettront d'évaluer si l'EMDR est indiquée dans votre cas.
           </p>
           <div className="group pt-2 w-fit h-auto mr-0 ml-auto hover:translate-x-0.5">
-            <a href="/mon-parcours" className="text-gray-600 tracking-wide">
+            <a href="/emdr" className="text-gray-600 tracking-wide">
               En savoir plus
               <Image
                 src={`/images/right-arrow_7.svg`}
