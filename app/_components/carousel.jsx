@@ -45,7 +45,7 @@ export default function Carousel({
           width={1500}
           height={1500}
           preload={true}
-          className="object-cover z-0 object-center w-full h-full"
+          className="object-cover z-0 w-full h-full object-[65%_0%]"
         />
       </div>
     </div>

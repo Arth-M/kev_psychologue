@@ -97,7 +97,7 @@ export default function Emdr() {
         </div> */}
 
 
-      <div className="relative w-full h-570 sm:h-420 md:h-470 lg:h-370 -mb-90 pt-10 background bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
+      <div className="relative w-full h-570 sm:h-420 md:h-470 lg:h-370 -mb-90 pt-10 bg-[url(/images/help.jpg)] bg-[rgba(255,249,249,0.9)] sm:bg-[rgba(255,249,249,0.8)] bg-blend-overlay bg-size-[auto_auto] sm:bg-fixed sm:bg-size-[100%_auto] bg-center bg-no-repeat">
 
 
         <div className="w-4/5 mx-auto mb-15 to-show animate-on-scroll">

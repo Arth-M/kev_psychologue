@@ -202,11 +202,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative w-full background2 bg-cover md:bg-fixed md:bg-size-[100%_auto] bg-center bg-no-repeat h-150 -mb-75">
+      <div className="relative w-full bg-[url(/images/help-horizontal.jpeg)] bg-[rgba(255,249,249,0.8)] bg-blend-overlay bg-cover md:bg-fixed bg-center bg-no-repeat h-150 -mb-75">
         <div className="md:w-16/25 px-7 md:px-0 mx-auto space-x-10 py-20 to-show animate-on-scroll">
           <h2 className="text-2xl text-gray-500">Thérapie EMDR</h2>
-          <p className="text-xl text-gray-500 mt-5 mr-0 ml-auto line-clamp-3 ">
-            La thérapie EMDR (pour
+          <p className="text-xl text-gray-600 mt-5 mr-0 ml-auto line-clamp-3 font-light">
+            La thérapie EMDR (pour{' '}
             <span className="font-normal italic">
               Eye movement desensitization and reprocessing
             </span>
