@@ -48,7 +48,7 @@ export const jsonLdData = {
   additionalType: "https://schema.org/Psychologist",
   name: "Kévin Nicolas",
   // image: "https://psychologue-baillargues.fr/images/kevin_nicolas.webp",
-  image: "https://kev-psychologue.vercel.app/public/images/phoenix.svg",
+  image: "https://kev-psychologue.vercel.app/public/images/phoenix.png",
   description:
     "Kevin Nicolas est un Psychologue diplômé installé à Baillargues. Il travaille sur les traumas, les phobies et les addictions notamment avec l'EMDR.",
   address: {
@@ -107,7 +107,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify(jsonLdData),
           }}
         />
-        <link rel="icon" type="image/svg" href="./images/phoenix.svg"></link>
+        <link rel="icon" type="image/svg" href="./images/phoenix.png"></link>
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         </style>

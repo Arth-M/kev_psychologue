@@ -140,13 +140,13 @@ export default function Consultations() {
 		L22.079,17.835z"/>
 </g>
 </svg>
-            <a href="tel:+336XXXXXXX" className="mb-0 mt-2">
-              06.XX.XX.XX.XX
+            <a href="tel:+33661734645" className="mb-0 mt-2">
+              06.61.73.46.45
             </a>
 
             <svg className="h-5 w-5 md:fill-white fill-gray-600 mt-2" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path clipRule="evenodd" d="m462.88 337.781c0 43.236-35.17 78.351-78.351 78.351h-257.057c-43.181 0-78.352-35.116-78.352-78.351v-163.562c0-14.43 3.951-27.983 10.809-39.615l125.428 125.428c18.765 18.82 43.894 29.19 70.67 29.19 26.721 0 51.85-10.37 70.615-29.19l125.428-125.428c6.859 11.632 10.809 25.184 10.809 39.615v163.562zm-78.352-241.913h-257.056c-17.832 0-34.293 6.035-47.461 16.076l126.69 126.745c13.114 13.058 30.616 20.301 49.326 20.301 18.655 0 36.158-7.243 49.271-20.301l126.69-126.745c-13.167-10.041-29.627-16.076-47.46-16.076zm0-30.232h-257.056c-59.861 0-108.584 48.723-108.584 108.584v163.562c0 59.916 48.723 108.584 108.584 108.584h257.056c59.861 0 108.584-48.668 108.584-108.584v-163.563c0-59.861-48.723-108.583-108.584-108.583z" fillRule="evenodd"/></svg>
-            <a href="mailto:mailKevin@mailkevin.com" className="mb-0 mt-2">
-              mailKevin@mailkevin.com
+            <a href="mailto:knicolas34@gmail.com" className="mb-0 mt-2">
+              knicolas34@gmail.com
             </a>
           </div>
           <hr className='text-gray-600 md:text-white w-1/3 -ml-10 mt-4'/>
@@ -197,7 +197,7 @@ export default function Consultations() {
           </a>
         </div>
         <div className="sm:px-10 md:px-15 px-5 md:gap-x-10 mx-auto sm:grid grid-cols-[minmax(90px,3fr)_minmax(120px,4fr)] md:w-4/5 items-start justify-start mt-15">
-          
+
            <Image
               src="/images/IMG_2315.JPG"
               alt="Image d'un caillou taillé"
