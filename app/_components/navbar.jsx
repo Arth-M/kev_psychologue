@@ -54,7 +54,7 @@ export default function Navbar() {
       >
         {/* logo et bouton doctolib */}
         <div
-          className={`w-35 h-20 overflow-hidden absolute -top-4 -left-5 ${
+          className={`w-35 h-27 overflow-hidden absolute -top-6 -left-2 ${
             isVisible
               ? "fill-mako-900 ease-in-out transition-colors duration-200"
               : "fill-mako-800 ease-in-out transition-colors duration-200"
@@ -68,7 +68,7 @@ export default function Navbar() {
               <path d="m427.89 147.455c-.004.003-.007.007-.011.01.152-.017.315-.038.011-.01z" />
             </svg> */}
             <Image
-              src="/images/phoenix_shutter.webp"
+              src="/images/phoenix-preview.png"
               alt="Image d'un caillou taillé"
               width={347}
               height={280}
