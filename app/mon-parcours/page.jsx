@@ -67,10 +67,10 @@ export default function MonParcours() {
 
             </span>
             J’ai suivi le parcours : Phénoménologie clinique du sportif et des problématiques corporelles
-            Pour le Master 1, j’ai écris et soutenus le mémoire :
+            Pour le Master 1, j’ai écrit et soutenu le mémoire :
             « Contiens moi, j’ai besoin de liberté »
             Recherche sur le processus de subjectivation à l’adolescence à travers l’analyse du phénomène de contenance institutionnelle pouvant permettre au sujet une amorce de contenance psychique.
-            Pour le master 2, j’ai écris et soutenus le mémoire :
+            Pour le master 2, j’ai écrit et soutenu le mémoire :
             « Se rencontrer et devenir »
             Les médiations corporelles comme chemin de Nostrité et de réalisation de soi.
           </p>
@@ -111,16 +111,18 @@ export default function MonParcours() {
             className="object-cover object-center w-1/2 sm:w-4/7 md:w-3/7 lg:w-2/7 float-right ml-10"
           />
           <p className="text-white text-lg mt-2 text-justify font-light ">
-            A l’obtention du diplôme, j’ai tout de suite été engagé à la bergerie de Faucon.
+            À l’obtention du diplôme, j’ai tout de suite été engagé à la bergerie de Faucon.
             Cette institution était mon lieu de stage en Master 2.
           </p>
 
           <p className="text-white text-lg mt-2 text-justify font-light ">
-            Il s’agit d’un lieu de vie pour adolescents en difficultés, suivies par l’aide sociale à l’enfance où la protection judiciaire de la jeunesse. Ce lieu de vie se situe dans les gorges du Verdon et a la spécificité de se trouver en pleine nature et de centrer son travail sur la zoo-pédagogie.
+            Il s’agit d’un lieu de vie pour adolescents en difficulté, suivis par l’aide sociale à l’enfance ou la protection judiciaire de la jeunesse. Ce lieu de vie se situe dans les gorges du Verdon et a la spécificité de se trouver en
+            pleine nature et de centrer son travail sur la zoo-pédagogie.
           </p>
 
           <p className="text-white text-lg mt-2 text-justify font-light ">
-            Pendant 3 années j’ai partagés le quotidien des adolescents , de l’équipe pluridisciplinaire…et des nombreux animaux présent sur le site.
+            Pendant 3 années j’ai partagé le quotidien des adolescents, de l’équipe pluridisciplinaire
+            et des nombreux animaux présents sur le site.
           </p>
           <p className="text-white text-lg mt-2 text-justify font-light">
             En 2019 j’ai intégré le service «  Parenthèse » , Institution de l’association ADAGES.
@@ -128,11 +130,13 @@ export default function MonParcours() {
           </p>
 
           <p className="text-white text-lg mt-2 text-justify font-light">
-            Il s’agissait de médiatiser des droits de visites entre parents et enfants ( de 1 à 17 ans). Ces droits de visites étaient dispensés par le juge aux affaires familiales.
-            Les familles venaient de tous horizons et rencontrées des problématiques variées
+            Il s’agissait de médiatiser les droits de visite entre parents et enfants (de 1 à 17 ans).
+            Ces droits de visite étaient dispensés par le juge aux affaires familiales.
+            Les familles venaient de tous horizons et rencontraient des problématiques variées.
           </p>
           <p className="text-white text-lg mt-2 text-justify font-light">
-            J’ai occupé ce poste jusqu’en 2023, aujourd’hui je commence une nouvelle aventure en m’installant en tant que psychologue libéral.
+            J’ai occupé ce poste jusqu’en 2023, aujourd’hui je commence une nouvelle aventure
+            en m’installant en tant que psychologue libéral.
           </p>
           </div>
 

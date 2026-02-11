@@ -46,7 +46,7 @@ export default function Footer() {
         <p className="text-center mb-10">
           Thérapie EMDR, traitement des traumas, addictions, phobies.
         </p>
-        <div className="mx-auto flex flex-wrap space-x-30 space-y-7 lg:max-w-1/2 md:max-w-2/3 w-full px-5 justify-center content-center">
+        <div className="mx-auto flex flex-wrap space-x-30 space-y-7 lg:max-w-2/3 md:max-w-2/3 w-full px-5 justify-center content-center">
           <div className="block w-fit mx-auto">
             <a href="tel:+33661734645" className="">
               <Image
@@ -55,7 +55,7 @@ export default function Footer() {
                 width={50}
                 height={50}
                 preload={false}
-                className="h-5 w-5 inline mb-1 mr-2"
+                className="h-5 w-5 inline mb-1 mr-1"
               />
               <p className="inline text-center">06.61.73.46.45</p>
             </a>
@@ -68,7 +68,7 @@ export default function Footer() {
                 width={50}
                 height={50}
                 preload={false}
-                className="h-5 w-5 inline mb-1 mr-2"
+                className="h-5 w-5 inline mb-1 mr-1"
               />
               <p className="inline text-nowrap">
                 39 rue de Colombiers, 34670 Baillargues

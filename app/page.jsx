@@ -58,7 +58,7 @@ export default function Home() {
       <div className="bg-gray-400 w-full px-10 py-20">
         <div className="w-4/5 mx-auto to-show animate-on-scroll">
           <p className=" text-white text-2xl font-light">
-            Quelque chose vous bloque où ne passe pas?
+            Quelque chose vous bloque ou ne passe pas?
           </p>
           <hr className=" w-1/7 mt-5 text-gray-100" />
           <div className="md:flex md:flex-wrap mt-10">
@@ -106,7 +106,7 @@ export default function Home() {
 
       <div className="flex px-7 md:px-0 md:w-4/5 mx-auto my-20 md:space-x-10 space-x-4 items-center to-show animate-on-scroll">
         <Image
-          src="/images/IMG_3081.JPG"
+          src="/images/cabinet-2.JPG"
           alt="Image du cabinet"
           width={4032}
           height={3024}
@@ -117,8 +117,8 @@ export default function Home() {
           <p className="text-gray-700 text-xl font-light line-clamp-3 text-justify">
             Diplômé de l'université Paul Valéry en 2016, j'ai commencé par
             travailler à la bergerie de Faucon avec des adolescents en
-            difficultés. J'ai ensuite été médiateur en espace de rencontre pour
-            l'association Adages lors des droits de visites entre parents et
+            difficulté. J'ai ensuite été médiateur en espace de rencontre pour
+            l'association Adages lors des droits de visite entre parents et
             enfants de tout âge.
           </p>
           <div className="group pt-2 w-fit h-auto mr-0 ml-auto hover:translate-x-0.5">
@@ -151,8 +151,8 @@ export default function Home() {
             <p className="text-white text-xl font-light line-clamp-3 text-justify">
               Les consultations se déroulent dans mon cabinet situé à
               Baillargues. Les thérapies que je propose s'adressent aux
-              adolescents et aux adultes. Les personnes souffrant de phobies,
-              d'addictions ou de traumas profonds sont aussi les bienvenues,
+              adolescents et aux adultes. Les personnes souffrant de phobie,
+              d'addiction ou de traumas profonds sont aussi les bienvenues,
               ensemble nous essaierons trouver des solutions.
             </p>
             <div className="group pt-2 w-fit mr-0 ml-auto hover:translate-x-0.5">
@@ -211,9 +211,9 @@ export default function Home() {
               Eye movement desensitization and reprocessing
             </span>
             ) aide à traiter les séquelles psychologiques liées à des évènements
-            de vie perturbant. Elle est aussi indiquée dans le cas des phobies,
+            de vie perturbants. Elle est aussi indiquée dans le cas des phobies,
             des addictions ou encore des traumas. Des entretiens préliminaires
-            nous permettront d'évaluer si l'EMDR est indiquée dans votre cas.
+            nous permettrons d'évaluer si l'EMDR est indiquée dans votre cas.
           </p>
           <div className="group pt-2 w-fit h-auto mr-0 ml-auto hover:translate-x-0.5">
             <a href="/emdr" className="text-gray-600 tracking-wide">
